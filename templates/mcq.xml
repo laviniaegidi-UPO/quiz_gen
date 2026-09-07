@@ -1,0 +1,13 @@
+<!-- question: __PHNUMEROQ  -->
+<question type="multichoice">
+  <name>
+    <text>__PHNOMEDOMANDA</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[AFFERMAZIONE0]]></text>
+  </questiontext>
+  __PHELENCOAFFERMAZIONI
+  <shuffleanswers>__PHSHUFFLE</shuffleanswers>
+  <single>__PHISSINGLE</single>
+  <answernumbering>abc</answernumbering>
+</question>

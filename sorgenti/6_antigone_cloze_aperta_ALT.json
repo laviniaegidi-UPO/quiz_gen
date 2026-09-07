@@ -1,0 +1,30 @@
+{
+"category":"prova/Antigone_cloze_aperta",
+"question_name": "Antigone - cloze aperta",
+"question_type":"cloze",
+"cloze_type": "SHORTANSWER",
+"number_of_statements":"4",
+"choices": [[1,1,1,1],[1,2,1,0]],
+"answers":{
+"1":"{1:SHORTANSWER:=Antigone}","2":"{1:SHORTANSWER:=Ismene}","3":"{1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}","4":"{1:SHORTANSWER:=Eteocle}"
+},
+"options":["itemized"],
+"task":"Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati",
+"placeholder_answer":"__DARIEMPIRE",
+
+"statements":{
+"1":
+["__DARIEMPIRE vuole seppellire il fratello","__DARIEMPIRE viene sepolta viva","Creonte è re nell' __DARIEMPIRE"],
+"2":
+["Il personaggio che rappresenta l'antitesi di Antigone è __DARIEMPIRE","__DARIEMPIRE cerca di convincere Antigone ad obbedire alle leggi della città"],
+"3":
+["I due fratelli di Antigone e Ismene sono __DARIEMPIRE", "I due guerrieri che si uccidono per mano uno dell'altro prima dell'inizio dell'Antigone sono __DARIEMPIRE","I due figli di Edipo sono __DARIEMPIRE"
+],
+"4":
+["__DARIEMPIRE usurpa il trono al fratello", "__DARIEMPIRE viene sepolto con tutti gli onori come un eroe"]
+}
+}
+
+
+          
+       

@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$module$/prova/tragedie_dd</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+  
+  
+<!-- question: 1  -->
+  <question type="ddwtos">
+    <name>
+      <text>Altre tragedie - dd</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi nel modo corretto</p>
+		<ul> 
+
+	<li> La stirpe di [[2]] è maledetta perché egli uccise il padre e si giacque con la madre</li>
+	<li> Nelle Fenicie, Giocasta e [[2]] sono ancora vivi</li>
+	<li> [[1]] accompagna Edipo in esilio</li> 
+	</ul>
+		]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.25</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>1</shuffleanswers>
+       <dragbox>
+      <text>Antigone</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Edipo</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Creonte</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Meneceo</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+
+  </question>
+<!-- question: 2  -->
+  <question type="ddwtos">
+    <name>
+      <text>Altre tragedie - dd</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi nel modo corretto</p>
+		<ul> 
+
+	<li> Nelle Fenicie, il sacrificio di [[4]] salva Tebe dalla disfatta</li>
+	<li> [[1]] accompagna Edipo in esilio</li>
+	<li> La stirpe di [[2]] è maledetta perché egli uccise il padre e si giacque con la madre</li> 
+	</ul>
+		]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.25</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>1</shuffleanswers>
+       <dragbox>
+      <text>Antigone</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Edipo</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Creonte</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Meneceo</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+
+  </question>
+<!-- question: 3  -->
+  <question type="ddwtos">
+    <name>
+      <text>Altre tragedie - dd</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi nel modo corretto</p>
+		<ul> 
+
+	<li> La stirpe di [[2]] è maledetta perché egli uccise il padre e si giacque con la madre</li>
+	<li> Ismene è sorella di [[1]]</li>
+	<li> Nelle Fenicie, Giocasta e [[2]] sono ancora vivi</li> 
+	</ul>
+		]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.25</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>1</shuffleanswers>
+       <dragbox>
+      <text>Antigone</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Edipo</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Creonte</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Meneceo</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+
+  </question>
+<!-- question: 4  -->
+  <question type="ddwtos">
+    <name>
+      <text>Altre tragedie - dd</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi nel modo corretto</p>
+		<ul> 
+
+	<li> La stirpe di [[2]] è maledetta perché egli uccise il padre e si giacque con la madre</li>
+	<li> Nelle Fenicie, il sacrificio di [[4]] salva Tebe dalla disfatta</li>
+	<li> Ismene è sorella di [[1]]</li> 
+	</ul>
+		]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.25</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>1</shuffleanswers>
+       <dragbox>
+      <text>Antigone</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Edipo</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Creonte</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Meneceo</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+
+  </question>
+<!-- question: 5  -->
+  <question type="ddwtos">
+    <name>
+      <text>Altre tragedie - dd</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi nel modo corretto</p>
+		<ul> 
+
+	<li> [[1]] accompagna Edipo in esilio</li>
+	<li> Nelle Fenicie, Giocasta e [[2]] sono ancora vivi</li>
+	<li> Nell'Edipo Re, Edipo caccia [[3]] da Tebe</li> 
+	</ul>
+		]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.25</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>1</shuffleanswers>
+       <dragbox>
+      <text>Antigone</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Edipo</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Creonte</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Meneceo</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+
+  </question>
+<!-- question: 6  -->
+  <question type="ddwtos">
+    <name>
+      <text>Altre tragedie - dd</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi nel modo corretto</p>
+		<ul> 
+
+	<li> [[1]] accompagna Edipo in esilio</li>
+	<li> Nelle Fenicie, il sacrificio di [[4]] salva Tebe dalla disfatta</li>
+	<li> Nell'Edipo Re, Edipo caccia [[3]] da Tebe</li> 
+	</ul>
+		]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.25</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>1</shuffleanswers>
+       <dragbox>
+      <text>Antigone</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Edipo</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Creonte</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Meneceo</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+
+  </question>
+<!-- question: 7  -->
+  <question type="ddwtos">
+    <name>
+      <text>Altre tragedie - dd</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi nel modo corretto</p>
+		<ul> 
+
+	<li> Ismene è sorella di [[1]]</li>
+	<li> Nelle Fenicie, Giocasta e [[2]] sono ancora vivi</li>
+	<li> Nell'Edipo Re, Edipo caccia [[3]] da Tebe</li> 
+	</ul>
+		]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.25</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>1</shuffleanswers>
+       <dragbox>
+      <text>Antigone</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Edipo</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Creonte</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Meneceo</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+
+  </question>
+<!-- question: 8  -->
+  <question type="ddwtos">
+    <name>
+      <text>Altre tragedie - dd</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi nel modo corretto</p>
+		<ul> 
+
+	<li> Nell'Edipo Re, Edipo caccia [[3]] da Tebe</li>
+	<li> Ismene è sorella di [[1]]</li>
+	<li> Nelle Fenicie, il sacrificio di [[4]] salva Tebe dalla disfatta</li> 
+	</ul>
+		]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.25</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>1</shuffleanswers>
+       <dragbox>
+      <text>Antigone</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Edipo</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Creonte</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Meneceo</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+
+  </question>
+<!-- question: 9  -->
+  <question type="ddwtos">
+    <name>
+      <text>Altre tragedie - dd</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi nel modo corretto</p>
+		<ul> 
+
+	<li> Nelle Fenicie, il sacrificio di [[4]] salva Tebe dalla disfatta</li>
+	<li> La stirpe di [[2]] è maledetta perché egli uccise il padre e si giacque con la madre</li>
+	<li> Nelle Fenicie, Giocasta e [[2]] sono ancora vivi</li> 
+	</ul>
+		]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.25</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>1</shuffleanswers>
+       <dragbox>
+      <text>Antigone</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Edipo</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Creonte</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Meneceo</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+
+  </question>
+<!-- question: 10  -->
+  <question type="ddwtos">
+    <name>
+      <text>Altre tragedie - dd</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi nel modo corretto</p>
+		<ul> 
+
+	<li> Nelle Fenicie, il sacrificio di [[4]] salva Tebe dalla disfatta</li>
+	<li> Nell'Edipo Re, Edipo caccia [[3]] da Tebe</li>
+	<li> Nelle Fenicie, Giocasta e [[2]] sono ancora vivi</li> 
+	</ul>
+		]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.25</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>1</shuffleanswers>
+       <dragbox>
+      <text>Antigone</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Edipo</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Creonte</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Meneceo</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+
+  </question>
+<!-- question: 11  -->
+  <question type="ddwtos">
+    <name>
+      <text>Altre tragedie - dd</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi nel modo corretto</p>
+		<ul> 
+
+	<li> Nelle Fenicie, Giocasta e [[2]] sono ancora vivi</li>
+	<li> Nelle Fenicie, il sacrificio di [[4]] salva Tebe dalla disfatta</li>
+	<li> [[1]] accompagna Edipo in esilio</li> 
+	</ul>
+		]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.25</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>1</shuffleanswers>
+       <dragbox>
+      <text>Antigone</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Edipo</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Creonte</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Meneceo</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+
+  </question>
+<!-- question: 12  -->
+  <question type="ddwtos">
+    <name>
+      <text>Altre tragedie - dd</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi nel modo corretto</p>
+		<ul> 
+
+	<li> Ismene è sorella di [[1]]</li>
+	<li> Nelle Fenicie, il sacrificio di [[4]] salva Tebe dalla disfatta</li>
+	<li> Nelle Fenicie, Giocasta e [[2]] sono ancora vivi</li> 
+	</ul>
+		]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.25</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>1</shuffleanswers>
+       <dragbox>
+      <text>Antigone</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Edipo</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Creonte</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+    <dragbox>
+      <text>Meneceo</text>
+      <group>1</group>
+      <infinite/>
+    </dragbox>
+
+
+  </question>
+  
+  </quiz>

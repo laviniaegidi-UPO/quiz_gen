@@ -1,0 +1,2176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$module$/prova/Antigone_cloze</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+  
+  
+<!-- question: 1  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 2  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 3  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 4  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 5  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 6  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 7  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 8  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 9  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 10  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 11  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 12  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 13  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 14  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 15  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 16  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 17  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 18  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 19  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 20  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 21  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 22  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 23  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 24  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 25  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 26  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 27  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 28  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 29  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 30  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 31  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 32  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 33  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 34  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 35  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 36  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 37  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 38  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 39  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 40  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 41  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 42  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 43  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 44  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 45  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 46  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 47  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 48  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 49  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 50  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 51  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 52  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 53  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 54  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 55  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 56  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 57  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 58  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 59  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 60  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 61  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 62  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 63  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 64  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 65  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 66  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 67  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 68  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 69  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 70  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 71  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 72  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 73  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 74  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 75  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 76  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 77  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 78  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 79  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 80  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 81  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 82  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 83  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 84  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 85  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 86  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 87  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 88  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 89  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 90  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 91  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 92  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 93  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 94  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 95  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 96  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 97  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 98  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 99  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 100  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 101  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 102  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene è sorella di Giocasta {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 103  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 104  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 105  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 106  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 107  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 108  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Ismene non vuole disobbedire alla città {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 109  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 110  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 111  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 112  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 113  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 114  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe ha 8 porte {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 115  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 116  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 117  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 118  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 119  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 120  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone di Sofocle - cloze</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Indicate per ognuna delle frasi seguenti se è vera o falsa.</p><ul> 
+
+	<li> La città di Tebe è governata da Creonte {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone è la promessa sposa di Emone {:MULTICHOICE_H:=vero~falso}</li>
+	<li> Antigone fugge da Tebe {:MULTICHOICE_H:vero~=falso}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+  
+  </quiz>

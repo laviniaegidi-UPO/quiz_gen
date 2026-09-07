@@ -1,0 +1,12 @@
+<!-- question: __PHNUMEROQ  -->
+  <question type="cloze">
+    <name>
+      <text>__PHNOMEDOMANDA</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>_PHCONSEGNA</p>__PHELENCOAFFERMAZIONI]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>

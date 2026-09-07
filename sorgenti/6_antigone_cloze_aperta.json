@@ -1,0 +1,69 @@
+{
+"category":"prova/Antigone_cloze_aperta",
+"question_name": "Antigone - cloze aperta",
+"question_type":"cloze",
+"cloze_type": "SHORTANSWER",
+"number_of_statements":"4",
+"choices": [[1,1,1,1],[1,2,1,0]],
+"answers":{
+"1":"{1:SHORTANSWER:=Antigone}","2":"{1:SHORTANSWER:=Ismene}","3":"{1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}","4":"{1:SHORTANSWER:=Eteocle}"
+},
+"options":["itemized"],
+"task":"Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati",
+"placeholder_answer":"__DARIEMPIRE",
+
+"statements":{
+    "1": [
+        {
+            "statement": "__DARIEMPIRE vuole seppellire il fratello",
+            "correct": "1"
+        },
+        {
+            "statement": "__DARIEMPIRE viene sepolta viva",
+            "correct": "1"
+        },
+        {
+            "statement": "Creonte è re nell' __DARIEMPIRE",
+            "correct": "1"
+        }
+    ],
+    "2": [
+        {
+            "statement": "Il personaggio che rappresenta l'antitesi di Antigone è __DARIEMPIRE",
+            "correct": "2"
+        },
+        {
+            "statement": "__DARIEMPIRE cerca di convincere Antigone ad obbedire alle leggi della città",
+            "correct": "2"
+        }
+    ],
+    "3": [
+        {
+            "statement": "I due fratelli di Antigone e Ismene sono __DARIEMPIRE",
+            "correct": "3"
+        },
+        {
+            "statement": "I due guerrieri che si uccidono per mano uno dell'altro prima dell'inizio dell'Antigone sono __DARIEMPIRE",
+            "correct": "3"
+        },
+        {
+            "statement": "I due figli di Edipo sono __DARIEMPIRE",
+            "correct": "3"
+        }
+    ],
+    "4": [
+        {
+            "statement": "__DARIEMPIRE usurpa il trono al fratello",
+            "correct": "4"
+        },
+        {
+            "statement": "__DARIEMPIRE viene sepolto con tutti gli onori come un eroe",
+            "correct": "4"
+        }
+    ]
+}
+}
+
+
+          
+       

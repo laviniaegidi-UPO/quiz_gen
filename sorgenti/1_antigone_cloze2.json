@@ -1,0 +1,27 @@
+{
+"category":"prova/Antigone_cloze",
+"question_name":"Antigone di Sofocle - cloze",
+"question_type":"cloze",
+"cloze_type": "MULTICHOICE_H",
+"number_of_statements":"4",
+"choices":[[1, 0, 3]],
+"answers":{"1": "vero","2":"falso"},
+"options": ["itemized", "all_orders"],
+"task":"Indicate per ognuna delle frasi seguenti se è vera o falsa.",
+
+"statements":{
+"1":[
+{"statement":"Antigone fugge da Tebe", "correct":"2"},
+{"statement":"Antigone è la promessa sposa di Emone","correct":"1"}],
+"2":[
+{"statement":"La città di Tebe ha 8 porte","correct":"2"},
+{"statement":"La città di Tebe è governata da Creonte","correct":"1"}
+],
+"3":[
+{"statement":"Ismene è sorella di Giocasta","correct":"2"},
+{"statement":"Ismene seppellisce Polinice","correct":"2"},
+{"statement":"Ismene non vuole disobbedire alla città","correct":"1"}
+]
+}
+
+}

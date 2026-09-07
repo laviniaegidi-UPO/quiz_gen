@@ -1,0 +1,26 @@
+{
+"category":"prova/tragedie_dd",
+"question_name":"Altre tragedie - dd",
+"question_type":"dd",
+"number_of_statements":"3",
+"choices":[[1, 1, 1],[1, 0, 2],[0, 1, 2]],
+"answers":{"1":"Antigone","2":"Edipo","3":"Creonte","4":"Meneceo"},
+"if_infinite": {"1": "infinite","2":"infinite","3":"infinite","4":"infinite"},
+"options":["itemized","moodle_shuffle"],
+"task":"Completate le seguenti frasi nel modo corretto",
+"placeholder_answer":"__DARIEMPIRE",
+
+"statements":{
+"1":[
+{"statement":"La stirpe di __DARIEMPIRE è maledetta perché egli uccise il padre e si giacque con la madre", "correct":"2"},
+{"statement":"Nell'Edipo Re, Edipo caccia __DARIEMPIRE da Tebe","correct":"3"}],
+"2":[
+{"statement":"__DARIEMPIRE accompagna Edipo in esilio","correct":"1"},
+{"statement":"Ismene è sorella di __DARIEMPIRE","correct":"1"}
+],
+"3":[
+{"statement":"Nelle Fenicie, Giocasta e __DARIEMPIRE sono ancora vivi","correct":"2"},
+{"statement":"Nelle Fenicie, il sacrificio di __DARIEMPIRE salva Tebe dalla disfatta","correct":"4"}]
+}
+
+}

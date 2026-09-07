@@ -1,0 +1,91 @@
+{"README1": "exec: lista di nomi delle domande per creare tutti i quiz possibili per quel nome",
+  "README2":"il database serve solo se si vogliono creare le domande per tutti i file della lista",
+  "README3": "tutte le informazioni necessarie devono essere nei file json",
+  "README4":"leggere il README.txt per altre istruzioni",
+
+  "WARNING": "Do NOT change the labels in any of the following dictionaries",
+
+  "exec":[    "ALL"
+  ],
+   "database": [
+    "1_antigone_cloze2",
+"2_antigone_1o",
+"3_antigone_ao",
+"4_guerrieri_mcqM",
+"5_sofocle_mcq1",
+"6_antigone_cloze_aperta",
+     "6_antigone_cloze_aperta_ALT",
+     "7_tragedie_cloze3",
+    "8_tragedie_dd"
+   ],
+  "filenames": {
+    "sourcefile_prefix": "",
+    "outfile_prefix": "quiz_",
+    "source_dir": "sorgenti",
+    "out_dir": "quiz"
+  },
+"WARNING1": "-------------------------------------------------------------------------------------",
+"WARNING2": "If you change the values in 'templates' you must change the corresponding file names accordingly. Do NOT change the labels",
+  "templates": {
+    "template_dir": "templates",
+    "template_quiz": "shell",
+    "template_dragbox": "dragbox",
+    "template_MCQ_answers": "mcq_answers",
+    "template_dd": "dd",
+    "template_mcq": "mcq",
+    "template_cloze": "cloze"
+  },
+"WARNING3": "-------------------------------------------------------------------------------------",
+"WARNING4": "If you modify the values in 'necessary_input_fields' and 'meaningful_options' you must correspondingly change the labels in all input file. Adding or deleting entries requires a change in the implementation. Do NOT change the labels",
+  "necessary_input_fields": {
+  "all": {
+    "category": "category",
+    "question_name": "question_name",
+    "question_type": "question_type",
+    "number_of_statements": "number_of_statements",
+    "statements": "statements"
+  },
+  "dd": {
+    "answers": "answers",
+    "task": "tasks",
+    "placeholder_answer":"placeholder_answer"
+  },
+  "cloze": {
+    "cloze_type":"cloze_type",
+    "answers": "answers",
+    "task": "task"
+  },
+  "mcq": {
+    "group_fractions":"group_fractions",
+    "choices":"choices"
+  },
+    "none": {
+      "computed_choices": "computed_choices",
+      "options": "options",
+      "statement": "statement",
+      "correct": "correct",
+      "if_infinite": "if_infinite"
+    }
+},
+"meaningful_options": {
+  "mcq": {
+    "multiple": "multiple",
+    "moodle_shuffle": "moodle_shuffle"
+  },
+"dd": {
+  "moodle_shuffle": "moodle_shuffle",
+  "itemized": "itemized"
+},
+"cloze": {
+  "all_orders": "all_orders",
+  "itemized":"itemized"
+}},
+  "cloze_types": {"one": ["MULTICHOICE_H","MULTICHOICE_V","MULTICHOICE_VS", "MULTICHOICE_HS", "SHORTANSWER"],"many":
+ [ "these are not managed by the software","MULTIRESPONSE",
+  "MULTIRESPONSE_H",
+  "MULTIRESPONSE_S",
+  "MULTIRESPONSE_HS"]
+}
+
+
+}

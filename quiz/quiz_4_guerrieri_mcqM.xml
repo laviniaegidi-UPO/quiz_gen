@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$module$/prova/guerrieri_mcqM</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+  
+  
+<!-- question: 1  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi muore immediatemente prima dell'inizio dell'Antigone]]></text>
+  </questiontext>
+  
+	<answer fraction="50" format="plain_text">
+    <text>Polinice</text>
+  </answer>
+	<answer fraction="50" format="plain_text">
+    <text>Eteocle</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Edipo</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Creonte</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 2  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi muore immediatemente prima dell'inizio dell'Antigone]]></text>
+  </questiontext>
+  
+	<answer fraction="50" format="plain_text">
+    <text>Polinice</text>
+  </answer>
+	<answer fraction="50" format="plain_text">
+    <text>Eteocle</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Edipo</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Laio</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 3  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi muore immediatemente prima dell'inizio dell'Antigone]]></text>
+  </questiontext>
+  
+	<answer fraction="50" format="plain_text">
+    <text>Polinice</text>
+  </answer>
+	<answer fraction="50" format="plain_text">
+    <text>Eteocle</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Edipo</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Meneceo</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 4  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi muore immediatemente prima dell'inizio dell'Antigone]]></text>
+  </questiontext>
+  
+	<answer fraction="50" format="plain_text">
+    <text>Polinice</text>
+  </answer>
+	<answer fraction="50" format="plain_text">
+    <text>Eteocle</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Creonte</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Laio</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 5  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi muore immediatemente prima dell'inizio dell'Antigone]]></text>
+  </questiontext>
+  
+	<answer fraction="50" format="plain_text">
+    <text>Polinice</text>
+  </answer>
+	<answer fraction="50" format="plain_text">
+    <text>Eteocle</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Creonte</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Meneceo</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 6  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi muore immediatemente prima dell'inizio dell'Antigone]]></text>
+  </questiontext>
+  
+	<answer fraction="50" format="plain_text">
+    <text>Polinice</text>
+  </answer>
+	<answer fraction="50" format="plain_text">
+    <text>Eteocle</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Laio</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Meneceo</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 7  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi è fratello di Ismene?]]></text>
+  </questiontext>
+  
+	<answer fraction="50" format="plain_text">
+    <text>Polinice</text>
+  </answer>
+	<answer fraction="50" format="plain_text">
+    <text>Eteocle</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Edipo</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Creonte</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 8  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi è fratello di Ismene?]]></text>
+  </questiontext>
+  
+	<answer fraction="50" format="plain_text">
+    <text>Polinice</text>
+  </answer>
+	<answer fraction="50" format="plain_text">
+    <text>Eteocle</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Edipo</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Laio</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 9  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi è fratello di Ismene?]]></text>
+  </questiontext>
+  
+	<answer fraction="50" format="plain_text">
+    <text>Polinice</text>
+  </answer>
+	<answer fraction="50" format="plain_text">
+    <text>Eteocle</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Edipo</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Meneceo</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 10  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi è fratello di Ismene?]]></text>
+  </questiontext>
+  
+	<answer fraction="50" format="plain_text">
+    <text>Polinice</text>
+  </answer>
+	<answer fraction="50" format="plain_text">
+    <text>Eteocle</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Creonte</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Laio</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 11  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi è fratello di Ismene?]]></text>
+  </questiontext>
+  
+	<answer fraction="50" format="plain_text">
+    <text>Polinice</text>
+  </answer>
+	<answer fraction="50" format="plain_text">
+    <text>Eteocle</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Creonte</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Meneceo</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 12  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi è fratello di Ismene?]]></text>
+  </questiontext>
+  
+	<answer fraction="50" format="plain_text">
+    <text>Polinice</text>
+  </answer>
+	<answer fraction="50" format="plain_text">
+    <text>Eteocle</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Laio</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Meneceo</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 13  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi avrebbe dovuto governare Tebe a turno col fratello?]]></text>
+  </questiontext>
+  
+	<answer fraction="50" format="plain_text">
+    <text>Polinice</text>
+  </answer>
+	<answer fraction="50" format="plain_text">
+    <text>Eteocle</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Edipo</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Creonte</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 14  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi avrebbe dovuto governare Tebe a turno col fratello?]]></text>
+  </questiontext>
+  
+	<answer fraction="50" format="plain_text">
+    <text>Polinice</text>
+  </answer>
+	<answer fraction="50" format="plain_text">
+    <text>Eteocle</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Edipo</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Laio</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 15  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi avrebbe dovuto governare Tebe a turno col fratello?]]></text>
+  </questiontext>
+  
+	<answer fraction="50" format="plain_text">
+    <text>Polinice</text>
+  </answer>
+	<answer fraction="50" format="plain_text">
+    <text>Eteocle</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Edipo</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Meneceo</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 16  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi avrebbe dovuto governare Tebe a turno col fratello?]]></text>
+  </questiontext>
+  
+	<answer fraction="50" format="plain_text">
+    <text>Polinice</text>
+  </answer>
+	<answer fraction="50" format="plain_text">
+    <text>Eteocle</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Creonte</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Laio</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 17  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi avrebbe dovuto governare Tebe a turno col fratello?]]></text>
+  </questiontext>
+  
+	<answer fraction="50" format="plain_text">
+    <text>Polinice</text>
+  </answer>
+	<answer fraction="50" format="plain_text">
+    <text>Eteocle</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Creonte</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Meneceo</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 18  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi avrebbe dovuto governare Tebe a turno col fratello?]]></text>
+  </questiontext>
+  
+	<answer fraction="50" format="plain_text">
+    <text>Polinice</text>
+  </answer>
+	<answer fraction="50" format="plain_text">
+    <text>Eteocle</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Laio</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Meneceo</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 19  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi uccide il proprio fratello e muore ucciso dallo stesso?]]></text>
+  </questiontext>
+  
+	<answer fraction="50" format="plain_text">
+    <text>Polinice</text>
+  </answer>
+	<answer fraction="50" format="plain_text">
+    <text>Eteocle</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Edipo</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Creonte</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 20  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi uccide il proprio fratello e muore ucciso dallo stesso?]]></text>
+  </questiontext>
+  
+	<answer fraction="50" format="plain_text">
+    <text>Polinice</text>
+  </answer>
+	<answer fraction="50" format="plain_text">
+    <text>Eteocle</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Edipo</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Laio</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 21  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi uccide il proprio fratello e muore ucciso dallo stesso?]]></text>
+  </questiontext>
+  
+	<answer fraction="50" format="plain_text">
+    <text>Polinice</text>
+  </answer>
+	<answer fraction="50" format="plain_text">
+    <text>Eteocle</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Edipo</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Meneceo</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 22  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi uccide il proprio fratello e muore ucciso dallo stesso?]]></text>
+  </questiontext>
+  
+	<answer fraction="50" format="plain_text">
+    <text>Polinice</text>
+  </answer>
+	<answer fraction="50" format="plain_text">
+    <text>Eteocle</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Creonte</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Laio</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 23  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi uccide il proprio fratello e muore ucciso dallo stesso?]]></text>
+  </questiontext>
+  
+	<answer fraction="50" format="plain_text">
+    <text>Polinice</text>
+  </answer>
+	<answer fraction="50" format="plain_text">
+    <text>Eteocle</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Creonte</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Meneceo</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 24  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi uccide il proprio fratello e muore ucciso dallo stesso?]]></text>
+  </questiontext>
+  
+	<answer fraction="50" format="plain_text">
+    <text>Polinice</text>
+  </answer>
+	<answer fraction="50" format="plain_text">
+    <text>Eteocle</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Laio</text>
+  </answer>
+	<answer fraction="-50" format="plain_text">
+    <text>Meneceo</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 25  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi muore immediatemente prima dell'inizio dell'Antigone]]></text>
+  </questiontext>
+  
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Edipo</text>
+  </answer>
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Creonte</text>
+  </answer>
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Laio</text>
+  </answer>
+	<answer fraction="100" format="plain_text">
+    <text>nessuno di questi</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 26  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi muore immediatemente prima dell'inizio dell'Antigone]]></text>
+  </questiontext>
+  
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Edipo</text>
+  </answer>
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Creonte</text>
+  </answer>
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Meneceo</text>
+  </answer>
+	<answer fraction="100" format="plain_text">
+    <text>nessuno di questi</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 27  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi muore immediatemente prima dell'inizio dell'Antigone]]></text>
+  </questiontext>
+  
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Edipo</text>
+  </answer>
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Laio</text>
+  </answer>
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Meneceo</text>
+  </answer>
+	<answer fraction="100" format="plain_text">
+    <text>nessuno di questi</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 28  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi muore immediatemente prima dell'inizio dell'Antigone]]></text>
+  </questiontext>
+  
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Creonte</text>
+  </answer>
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Laio</text>
+  </answer>
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Meneceo</text>
+  </answer>
+	<answer fraction="100" format="plain_text">
+    <text>nessuno di questi</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 29  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi è fratello di Ismene?]]></text>
+  </questiontext>
+  
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Edipo</text>
+  </answer>
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Creonte</text>
+  </answer>
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Laio</text>
+  </answer>
+	<answer fraction="100" format="plain_text">
+    <text>nessuno di questi</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 30  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi è fratello di Ismene?]]></text>
+  </questiontext>
+  
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Edipo</text>
+  </answer>
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Creonte</text>
+  </answer>
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Meneceo</text>
+  </answer>
+	<answer fraction="100" format="plain_text">
+    <text>nessuno di questi</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 31  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi è fratello di Ismene?]]></text>
+  </questiontext>
+  
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Edipo</text>
+  </answer>
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Laio</text>
+  </answer>
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Meneceo</text>
+  </answer>
+	<answer fraction="100" format="plain_text">
+    <text>nessuno di questi</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 32  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi è fratello di Ismene?]]></text>
+  </questiontext>
+  
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Creonte</text>
+  </answer>
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Laio</text>
+  </answer>
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Meneceo</text>
+  </answer>
+	<answer fraction="100" format="plain_text">
+    <text>nessuno di questi</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 33  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi avrebbe dovuto governare Tebe a turno col fratello?]]></text>
+  </questiontext>
+  
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Edipo</text>
+  </answer>
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Creonte</text>
+  </answer>
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Laio</text>
+  </answer>
+	<answer fraction="100" format="plain_text">
+    <text>nessuno di questi</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 34  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi avrebbe dovuto governare Tebe a turno col fratello?]]></text>
+  </questiontext>
+  
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Edipo</text>
+  </answer>
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Creonte</text>
+  </answer>
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Meneceo</text>
+  </answer>
+	<answer fraction="100" format="plain_text">
+    <text>nessuno di questi</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 35  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi avrebbe dovuto governare Tebe a turno col fratello?]]></text>
+  </questiontext>
+  
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Edipo</text>
+  </answer>
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Laio</text>
+  </answer>
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Meneceo</text>
+  </answer>
+	<answer fraction="100" format="plain_text">
+    <text>nessuno di questi</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 36  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi avrebbe dovuto governare Tebe a turno col fratello?]]></text>
+  </questiontext>
+  
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Creonte</text>
+  </answer>
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Laio</text>
+  </answer>
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Meneceo</text>
+  </answer>
+	<answer fraction="100" format="plain_text">
+    <text>nessuno di questi</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 37  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi uccide il proprio fratello e muore ucciso dallo stesso?]]></text>
+  </questiontext>
+  
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Edipo</text>
+  </answer>
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Creonte</text>
+  </answer>
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Laio</text>
+  </answer>
+	<answer fraction="100" format="plain_text">
+    <text>nessuno di questi</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 38  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi uccide il proprio fratello e muore ucciso dallo stesso?]]></text>
+  </questiontext>
+  
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Edipo</text>
+  </answer>
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Creonte</text>
+  </answer>
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Meneceo</text>
+  </answer>
+	<answer fraction="100" format="plain_text">
+    <text>nessuno di questi</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 39  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi uccide il proprio fratello e muore ucciso dallo stesso?]]></text>
+  </questiontext>
+  
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Edipo</text>
+  </answer>
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Laio</text>
+  </answer>
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Meneceo</text>
+  </answer>
+	<answer fraction="100" format="plain_text">
+    <text>nessuno di questi</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+<!-- question: 40  -->
+<question type="multichoice">
+  <name>
+    <text>Antigone: re e guerrieri - MCQ</text>
+  </name>
+  <questiontext format="html">
+    <text><![CDATA[Chi uccide il proprio fratello e muore ucciso dallo stesso?]]></text>
+  </questiontext>
+  
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Creonte</text>
+  </answer>
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Laio</text>
+  </answer>
+	<answer fraction="-33.33333" format="plain_text">
+    <text>Meneceo</text>
+  </answer>
+	<answer fraction="100" format="plain_text">
+    <text>nessuno di questi</text>
+  </answer>
+  <shuffleanswers>1</shuffleanswers>
+  <single>false</single>
+  <answernumbering>abc</answernumbering>
+</question>
+  
+  </quiz>

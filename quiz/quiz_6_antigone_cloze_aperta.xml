@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+<!-- question: 0  -->
+  <question type="category">
+    <category>
+      <text>$module$/prova/Antigone_cloze_aperta</text>
+    </category>
+    <info format="html">
+      <text></text>
+    </info>
+    <idnumber></idnumber>
+  </question>
+  
+  
+<!-- question: 1  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> Il personaggio che rappresenta l'antitesi di Antigone è {1:SHORTANSWER:=Ismene}</li>
+	<li> {1:SHORTANSWER:=Eteocle} usurpa il trono al fratello</li>
+	<li> {1:SHORTANSWER:=Antigone} vuole seppellire il fratello</li>
+	<li> I due fratelli di Antigone e Ismene sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 2  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> Il personaggio che rappresenta l'antitesi di Antigone è {1:SHORTANSWER:=Ismene}</li>
+	<li> I due fratelli di Antigone e Ismene sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li>
+	<li> {1:SHORTANSWER:=Eteocle} viene sepolto con tutti gli onori come un eroe</li>
+	<li> {1:SHORTANSWER:=Antigone} vuole seppellire il fratello</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 3  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> {1:SHORTANSWER:=Eteocle} usurpa il trono al fratello</li>
+	<li> Il personaggio che rappresenta l'antitesi di Antigone è {1:SHORTANSWER:=Ismene}</li>
+	<li> {1:SHORTANSWER:=Antigone} vuole seppellire il fratello</li>
+	<li> I due guerrieri che si uccidono per mano uno dell'altro prima dell'inizio dell'Antigone sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 4  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> {1:SHORTANSWER:=Eteocle} viene sepolto con tutti gli onori come un eroe</li>
+	<li> {1:SHORTANSWER:=Antigone} vuole seppellire il fratello</li>
+	<li> I due guerrieri che si uccidono per mano uno dell'altro prima dell'inizio dell'Antigone sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li>
+	<li> Il personaggio che rappresenta l'antitesi di Antigone è {1:SHORTANSWER:=Ismene}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 5  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> {1:SHORTANSWER:=Antigone} vuole seppellire il fratello</li>
+	<li> I due figli di Edipo sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li>
+	<li> Il personaggio che rappresenta l'antitesi di Antigone è {1:SHORTANSWER:=Ismene}</li>
+	<li> {1:SHORTANSWER:=Eteocle} usurpa il trono al fratello</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 6  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> {1:SHORTANSWER:=Eteocle} viene sepolto con tutti gli onori come un eroe</li>
+	<li> Il personaggio che rappresenta l'antitesi di Antigone è {1:SHORTANSWER:=Ismene}</li>
+	<li> I due figli di Edipo sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li>
+	<li> {1:SHORTANSWER:=Antigone} vuole seppellire il fratello</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 7  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> I due fratelli di Antigone e Ismene sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li>
+	<li> {1:SHORTANSWER:=Eteocle} usurpa il trono al fratello</li>
+	<li> {1:SHORTANSWER:=Antigone} vuole seppellire il fratello</li>
+	<li> {1:SHORTANSWER:=Ismene} cerca di convincere Antigone ad obbedire alle leggi della città</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 8  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> {1:SHORTANSWER:=Ismene} cerca di convincere Antigone ad obbedire alle leggi della città</li>
+	<li> {1:SHORTANSWER:=Antigone} vuole seppellire il fratello</li>
+	<li> I due fratelli di Antigone e Ismene sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li>
+	<li> {1:SHORTANSWER:=Eteocle} viene sepolto con tutti gli onori come un eroe</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 9  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> I due guerrieri che si uccidono per mano uno dell'altro prima dell'inizio dell'Antigone sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li>
+	<li> {1:SHORTANSWER:=Antigone} vuole seppellire il fratello</li>
+	<li> {1:SHORTANSWER:=Ismene} cerca di convincere Antigone ad obbedire alle leggi della città</li>
+	<li> {1:SHORTANSWER:=Eteocle} usurpa il trono al fratello</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 10  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> {1:SHORTANSWER:=Ismene} cerca di convincere Antigone ad obbedire alle leggi della città</li>
+	<li> {1:SHORTANSWER:=Eteocle} viene sepolto con tutti gli onori come un eroe</li>
+	<li> I due guerrieri che si uccidono per mano uno dell'altro prima dell'inizio dell'Antigone sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li>
+	<li> {1:SHORTANSWER:=Antigone} vuole seppellire il fratello</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 11  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> I due figli di Edipo sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li>
+	<li> {1:SHORTANSWER:=Eteocle} usurpa il trono al fratello</li>
+	<li> {1:SHORTANSWER:=Ismene} cerca di convincere Antigone ad obbedire alle leggi della città</li>
+	<li> {1:SHORTANSWER:=Antigone} vuole seppellire il fratello</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 12  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> {1:SHORTANSWER:=Eteocle} viene sepolto con tutti gli onori come un eroe</li>
+	<li> {1:SHORTANSWER:=Ismene} cerca di convincere Antigone ad obbedire alle leggi della città</li>
+	<li> {1:SHORTANSWER:=Antigone} vuole seppellire il fratello</li>
+	<li> I due figli di Edipo sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 13  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> {1:SHORTANSWER:=Eteocle} usurpa il trono al fratello</li>
+	<li> I due fratelli di Antigone e Ismene sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li>
+	<li> {1:SHORTANSWER:=Antigone} viene sepolta viva</li>
+	<li> Il personaggio che rappresenta l'antitesi di Antigone è {1:SHORTANSWER:=Ismene}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 14  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> {1:SHORTANSWER:=Antigone} viene sepolta viva</li>
+	<li> {1:SHORTANSWER:=Eteocle} viene sepolto con tutti gli onori come un eroe</li>
+	<li> Il personaggio che rappresenta l'antitesi di Antigone è {1:SHORTANSWER:=Ismene}</li>
+	<li> I due fratelli di Antigone e Ismene sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 15  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> Il personaggio che rappresenta l'antitesi di Antigone è {1:SHORTANSWER:=Ismene}</li>
+	<li> {1:SHORTANSWER:=Antigone} viene sepolta viva</li>
+	<li> {1:SHORTANSWER:=Eteocle} usurpa il trono al fratello</li>
+	<li> I due guerrieri che si uccidono per mano uno dell'altro prima dell'inizio dell'Antigone sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 16  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> Il personaggio che rappresenta l'antitesi di Antigone è {1:SHORTANSWER:=Ismene}</li>
+	<li> {1:SHORTANSWER:=Antigone} viene sepolta viva</li>
+	<li> {1:SHORTANSWER:=Eteocle} viene sepolto con tutti gli onori come un eroe</li>
+	<li> I due guerrieri che si uccidono per mano uno dell'altro prima dell'inizio dell'Antigone sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 17  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> I due figli di Edipo sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li>
+	<li> {1:SHORTANSWER:=Eteocle} usurpa il trono al fratello</li>
+	<li> Il personaggio che rappresenta l'antitesi di Antigone è {1:SHORTANSWER:=Ismene}</li>
+	<li> {1:SHORTANSWER:=Antigone} viene sepolta viva</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 18  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> {1:SHORTANSWER:=Antigone} viene sepolta viva</li>
+	<li> Il personaggio che rappresenta l'antitesi di Antigone è {1:SHORTANSWER:=Ismene}</li>
+	<li> I due figli di Edipo sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li>
+	<li> {1:SHORTANSWER:=Eteocle} viene sepolto con tutti gli onori come un eroe</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 19  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> {1:SHORTANSWER:=Eteocle} usurpa il trono al fratello</li>
+	<li> {1:SHORTANSWER:=Antigone} viene sepolta viva</li>
+	<li> {1:SHORTANSWER:=Ismene} cerca di convincere Antigone ad obbedire alle leggi della città</li>
+	<li> I due fratelli di Antigone e Ismene sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 20  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> {1:SHORTANSWER:=Ismene} cerca di convincere Antigone ad obbedire alle leggi della città</li>
+	<li> {1:SHORTANSWER:=Antigone} viene sepolta viva</li>
+	<li> I due fratelli di Antigone e Ismene sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li>
+	<li> {1:SHORTANSWER:=Eteocle} viene sepolto con tutti gli onori come un eroe</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 21  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> I due guerrieri che si uccidono per mano uno dell'altro prima dell'inizio dell'Antigone sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li>
+	<li> {1:SHORTANSWER:=Ismene} cerca di convincere Antigone ad obbedire alle leggi della città</li>
+	<li> {1:SHORTANSWER:=Eteocle} usurpa il trono al fratello</li>
+	<li> {1:SHORTANSWER:=Antigone} viene sepolta viva</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 22  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> {1:SHORTANSWER:=Ismene} cerca di convincere Antigone ad obbedire alle leggi della città</li>
+	<li> {1:SHORTANSWER:=Antigone} viene sepolta viva</li>
+	<li> I due guerrieri che si uccidono per mano uno dell'altro prima dell'inizio dell'Antigone sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li>
+	<li> {1:SHORTANSWER:=Eteocle} viene sepolto con tutti gli onori come un eroe</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 23  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> {1:SHORTANSWER:=Ismene} cerca di convincere Antigone ad obbedire alle leggi della città</li>
+	<li> {1:SHORTANSWER:=Eteocle} usurpa il trono al fratello</li>
+	<li> {1:SHORTANSWER:=Antigone} viene sepolta viva</li>
+	<li> I due figli di Edipo sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 24  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> {1:SHORTANSWER:=Eteocle} viene sepolto con tutti gli onori come un eroe</li>
+	<li> I due figli di Edipo sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li>
+	<li> {1:SHORTANSWER:=Ismene} cerca di convincere Antigone ad obbedire alle leggi della città</li>
+	<li> {1:SHORTANSWER:=Antigone} viene sepolta viva</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 25  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> Il personaggio che rappresenta l'antitesi di Antigone è {1:SHORTANSWER:=Ismene}</li>
+	<li> {1:SHORTANSWER:=Eteocle} usurpa il trono al fratello</li>
+	<li> Creonte è re nell' {1:SHORTANSWER:=Antigone}</li>
+	<li> I due fratelli di Antigone e Ismene sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 26  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> {1:SHORTANSWER:=Eteocle} viene sepolto con tutti gli onori come un eroe</li>
+	<li> Creonte è re nell' {1:SHORTANSWER:=Antigone}</li>
+	<li> Il personaggio che rappresenta l'antitesi di Antigone è {1:SHORTANSWER:=Ismene}</li>
+	<li> I due fratelli di Antigone e Ismene sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 27  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> Creonte è re nell' {1:SHORTANSWER:=Antigone}</li>
+	<li> I due guerrieri che si uccidono per mano uno dell'altro prima dell'inizio dell'Antigone sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li>
+	<li> {1:SHORTANSWER:=Eteocle} usurpa il trono al fratello</li>
+	<li> Il personaggio che rappresenta l'antitesi di Antigone è {1:SHORTANSWER:=Ismene}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 28  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> {1:SHORTANSWER:=Eteocle} viene sepolto con tutti gli onori come un eroe</li>
+	<li> Creonte è re nell' {1:SHORTANSWER:=Antigone}</li>
+	<li> I due guerrieri che si uccidono per mano uno dell'altro prima dell'inizio dell'Antigone sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li>
+	<li> Il personaggio che rappresenta l'antitesi di Antigone è {1:SHORTANSWER:=Ismene}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 29  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> Creonte è re nell' {1:SHORTANSWER:=Antigone}</li>
+	<li> Il personaggio che rappresenta l'antitesi di Antigone è {1:SHORTANSWER:=Ismene}</li>
+	<li> I due figli di Edipo sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li>
+	<li> {1:SHORTANSWER:=Eteocle} usurpa il trono al fratello</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 30  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> Creonte è re nell' {1:SHORTANSWER:=Antigone}</li>
+	<li> I due figli di Edipo sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li>
+	<li> Il personaggio che rappresenta l'antitesi di Antigone è {1:SHORTANSWER:=Ismene}</li>
+	<li> {1:SHORTANSWER:=Eteocle} viene sepolto con tutti gli onori come un eroe</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 31  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> Creonte è re nell' {1:SHORTANSWER:=Antigone}</li>
+	<li> {1:SHORTANSWER:=Ismene} cerca di convincere Antigone ad obbedire alle leggi della città</li>
+	<li> {1:SHORTANSWER:=Eteocle} usurpa il trono al fratello</li>
+	<li> I due fratelli di Antigone e Ismene sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 32  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> {1:SHORTANSWER:=Eteocle} viene sepolto con tutti gli onori come un eroe</li>
+	<li> Creonte è re nell' {1:SHORTANSWER:=Antigone}</li>
+	<li> {1:SHORTANSWER:=Ismene} cerca di convincere Antigone ad obbedire alle leggi della città</li>
+	<li> I due fratelli di Antigone e Ismene sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 33  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> Creonte è re nell' {1:SHORTANSWER:=Antigone}</li>
+	<li> {1:SHORTANSWER:=Eteocle} usurpa il trono al fratello</li>
+	<li> {1:SHORTANSWER:=Ismene} cerca di convincere Antigone ad obbedire alle leggi della città</li>
+	<li> I due guerrieri che si uccidono per mano uno dell'altro prima dell'inizio dell'Antigone sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 34  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> Creonte è re nell' {1:SHORTANSWER:=Antigone}</li>
+	<li> {1:SHORTANSWER:=Eteocle} viene sepolto con tutti gli onori come un eroe</li>
+	<li> I due guerrieri che si uccidono per mano uno dell'altro prima dell'inizio dell'Antigone sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li>
+	<li> {1:SHORTANSWER:=Ismene} cerca di convincere Antigone ad obbedire alle leggi della città</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 35  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> {1:SHORTANSWER:=Eteocle} usurpa il trono al fratello</li>
+	<li> Creonte è re nell' {1:SHORTANSWER:=Antigone}</li>
+	<li> I due figli di Edipo sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li>
+	<li> {1:SHORTANSWER:=Ismene} cerca di convincere Antigone ad obbedire alle leggi della città</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 36  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> Creonte è re nell' {1:SHORTANSWER:=Antigone}</li>
+	<li> I due figli di Edipo sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li>
+	<li> {1:SHORTANSWER:=Eteocle} viene sepolto con tutti gli onori come un eroe</li>
+	<li> {1:SHORTANSWER:=Ismene} cerca di convincere Antigone ad obbedire alle leggi della città</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 37  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> I due fratelli di Antigone e Ismene sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li>
+	<li> {1:SHORTANSWER:=Antigone} vuole seppellire il fratello</li>
+	<li> {1:SHORTANSWER:=Ismene} cerca di convincere Antigone ad obbedire alle leggi della città</li>
+	<li> Il personaggio che rappresenta l'antitesi di Antigone è {1:SHORTANSWER:=Ismene}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 38  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> Il personaggio che rappresenta l'antitesi di Antigone è {1:SHORTANSWER:=Ismene}</li>
+	<li> I due guerrieri che si uccidono per mano uno dell'altro prima dell'inizio dell'Antigone sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li>
+	<li> {1:SHORTANSWER:=Ismene} cerca di convincere Antigone ad obbedire alle leggi della città</li>
+	<li> {1:SHORTANSWER:=Antigone} vuole seppellire il fratello</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 39  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> {1:SHORTANSWER:=Antigone} vuole seppellire il fratello</li>
+	<li> {1:SHORTANSWER:=Ismene} cerca di convincere Antigone ad obbedire alle leggi della città</li>
+	<li> I due figli di Edipo sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li>
+	<li> Il personaggio che rappresenta l'antitesi di Antigone è {1:SHORTANSWER:=Ismene}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 40  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> Il personaggio che rappresenta l'antitesi di Antigone è {1:SHORTANSWER:=Ismene}</li>
+	<li> {1:SHORTANSWER:=Ismene} cerca di convincere Antigone ad obbedire alle leggi della città</li>
+	<li> I due fratelli di Antigone e Ismene sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li>
+	<li> {1:SHORTANSWER:=Antigone} viene sepolta viva</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 41  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> I due guerrieri che si uccidono per mano uno dell'altro prima dell'inizio dell'Antigone sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li>
+	<li> {1:SHORTANSWER:=Ismene} cerca di convincere Antigone ad obbedire alle leggi della città</li>
+	<li> {1:SHORTANSWER:=Antigone} viene sepolta viva</li>
+	<li> Il personaggio che rappresenta l'antitesi di Antigone è {1:SHORTANSWER:=Ismene}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 42  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> I due figli di Edipo sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li>
+	<li> {1:SHORTANSWER:=Ismene} cerca di convincere Antigone ad obbedire alle leggi della città</li>
+	<li> Il personaggio che rappresenta l'antitesi di Antigone è {1:SHORTANSWER:=Ismene}</li>
+	<li> {1:SHORTANSWER:=Antigone} viene sepolta viva</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 43  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> I due fratelli di Antigone e Ismene sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li>
+	<li> {1:SHORTANSWER:=Ismene} cerca di convincere Antigone ad obbedire alle leggi della città</li>
+	<li> Creonte è re nell' {1:SHORTANSWER:=Antigone}</li>
+	<li> Il personaggio che rappresenta l'antitesi di Antigone è {1:SHORTANSWER:=Ismene}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 44  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> {1:SHORTANSWER:=Ismene} cerca di convincere Antigone ad obbedire alle leggi della città</li>
+	<li> Il personaggio che rappresenta l'antitesi di Antigone è {1:SHORTANSWER:=Ismene}</li>
+	<li> I due guerrieri che si uccidono per mano uno dell'altro prima dell'inizio dell'Antigone sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li>
+	<li> Creonte è re nell' {1:SHORTANSWER:=Antigone}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+<!-- question: 45  -->
+  <question type="cloze">
+    <name>
+      <text>Antigone - cloze aperta</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Completate le seguenti frasi scrivendo il nome o i nomi dei personaggi appropriati</p><ul> 
+
+	<li> Il personaggio che rappresenta l'antitesi di Antigone è {1:SHORTANSWER:=Ismene}</li>
+	<li> I due figli di Edipo sono {1:SHORTANSWER:=Eteocle e Polinice~=Polinice ed Eteocle~=Polinice e Eteocle~=Polinice Eteocle~=Eteocle Polinice}</li>
+	<li> {1:SHORTANSWER:=Ismene} cerca di convincere Antigone ad obbedire alle leggi della città</li>
+	<li> Creonte è re nell' {1:SHORTANSWER:=Antigone}</li> 
+	</ul>]]></text>
+    </questiontext>
+    <penalty>0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+  
+  </quiz>

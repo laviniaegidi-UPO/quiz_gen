@@ -1,0 +1,20 @@
+<!-- question: __PHNUMEROQ  -->
+  <question type="ddwtos">
+    <name>
+      <text>__PHNOMEDOMANDA</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>_PHCONSEGNA</p>
+		__PHELENCOAFFERMAZIONI
+		]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.25</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <shuffleanswers>__PHSHUFFLE</shuffleanswers>
+   __PHDRAGBOXES
+  </question>
