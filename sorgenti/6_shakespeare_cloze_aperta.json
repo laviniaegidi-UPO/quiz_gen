@@ -1,0 +1,53 @@
+{
+"categoria":"prova/Shakespeare_clozeAperta",
+"nome_domanda": "Shakespeare - cloze aperta",
+"tipo_domanda":"cloze",
+"tipo_di_cloze": "SHORTANSWER",
+"numero_di_frasi":"4",
+"scelte": [],
+"risposte":{
+"1":"{1:SHORTANSWER:=Polonio}","2":"{1:SHORTANSWER:=Caterina}","3":"{1:SHORTANSWER:=Scozia}","6":"{1:SHORTANSWER:=Roma}","4":"{1:SHORTANSWER:=Danimarca}","5":"{1:SHORTANSWER:=Verona}","7":"{1:SHORTANSWER:=Riccardo III~=Riccardo Terzo~=Riccardo 3~=Riccardo 3°}"
+},
+"opzioni":["elenco_puntato"],
+"consegna":"Completate le seguenti frasi nel modo corretto:",
+"spazio_risposta":"__DARIEMPIRE",
+
+"frasi":{
+    "1": [
+        {
+            "frase": "Nell'Amleto __DARIEMPIRE è il consigliere del re",
+            "corretta": "1"
+        },
+        {
+            "frase": "La bisbetica che verrà domata si chiama __DARIEMPIRE",
+            "corretta": "2"
+        },
+        {
+            "frase": "__DARIEMPIRE vuole cedere il suo regno per un cavallo",
+            "corretta": "7"
+        }
+    ],
+    "2": [
+        {
+            "frase": "Romeo e Giulietta è ambientato a __DARIEMPIRE",
+            "corretta": "5"
+        },
+        {
+            "frase": "Amleto è ambientato in __DARIEMPIRE",
+            "corretta": "4"
+        },
+        {
+            "frase": "Macbeth è ambientato in __DARIEMPIRE",
+            "corretta": "3"
+        },
+        {
+            "frase": "Giulio Cesare è ambientato nell'antica __DARIEMPIRE",
+            "corretta": "6"
+        }
+    ]
+}
+}
+
+
+          
+       

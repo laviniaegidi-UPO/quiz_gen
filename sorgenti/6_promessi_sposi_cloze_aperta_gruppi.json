@@ -1,0 +1,27 @@
+{
+"categoria":"esempi/Promessi_Sposi_cloze_aperta",
+"nome_domanda": "Promessi Sposi - cloze aperta",
+"tipo_domanda":"cloze",
+"tipo_di_cloze": "SHORTANSWER",
+"numero_di_frasi":"4",
+"scelte": [[1,1,1,1],[1,2,1,0]],
+"risposte":{
+"1":"{1:SHORTANSWER:=Renzo~=Renzo Tramaglino}","2":"{1:SHORTANSWER:=Don Abbondio}"
+},
+"opzioni":["elenco_puntato","permutazioni"],
+"consegna":"Completate le seguenti frasi scrivendo il nome del personaggio appropriato",
+"spazio_risposta":"__DARIEMPIRE",
+
+"frasi":{
+"1":
+["Il fidanzato di Lucia è __DARIEMPIRE",
+"__DARIEMPIRE va da Azzeccagarbugli"],
+"2":
+["I bravi di Don Rodrigo minacciano __DARIEMPIRE",
+"__DARIEMPIRE viene descritto come vaso di coccio tra i vasi di ferro",
+"La frase piú famosa di __DARIEMPIRE è 'Carneade, chi era costui?'"]
+}
+
+
+          
+       

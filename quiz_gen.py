@@ -39,7 +39,7 @@ def genera_template(risp, nomifile,lab):
     template = template.replace("_PHCONSEGNA", risp[lab["task"]])
 
     affermazioni = "__PHAFFERMAZIONE"
-    itemized = ("options" in risp.keys() and "itemized" in risp[lab["options"]])
+    itemized = (lab["options"] in risp.keys() and "itemized" in risp[lab["options"]])
     range_phaffermazione_start =0
     if risp[lab["question_type"]] == "mcq":
         itemized=False
@@ -53,7 +53,7 @@ def genera_template(risp, nomifile,lab):
     affermazioni = affermazioni.replace("__PHAFF_LISTA", "")
     template = template.replace("__PHELENCOAFFERMAZIONI",affermazioni)
 
-    if "options" in risp.keys() and "moodle_shuffle" in risp[lab["options"]]:
+    if lab["options"] in risp.keys() and "moodle_shuffle" in risp[lab["options"]]:
         template = template.replace("__PHSHUFFLE", "1")
     else:
         template = template.replace("__PHSHUFFLE", "0")
@@ -63,7 +63,7 @@ def genera_template(risp, nomifile,lab):
             template_db = template_dragbox_file.read()
         for key, filler in risp[lab["answers"]].items():
             infinite = ""
-            if ("if_infinite" in risp.keys()) and key in risp[lab["if_infinite"]].keys() and risp[lab["if_infinite"]][key].startswith("infi"):
+            if (lab["if_infinite"] in risp.keys()) and key in risp[lab["if_infinite"]].keys() and risp[lab["if_infinite"]][key].startswith("infi"):
                 infinite = "<infinite/>"
             template_db_inst = template_db.replace("__PHDRAGBOX", filler).replace("__PHIFINFINITE",infinite)
             template = template.replace("__PHDRAGBOXES", template_db_inst + "\n__PHDRAGBOXES")
@@ -81,12 +81,12 @@ def complete_answers(risp,nomifile,lab):
     for group in risp[lab["statements"]].keys():
         risp[COMPLETE_STATEMENTS][group] = []
         for rich_statement in risp[lab["statements"]][group]:
-            if risp[lab["question_type"]] == "dd" and not risp[lab["placeholder_answer"]] in rich_statement[lab["statement"]]:
-                # here we must add the '[[number]]' at the end; it is in the 'correct' field
+            if risp[lab["question_type"]] == "dd" and not risp[lab["answers_placeholder"]] in rich_statement[lab["statement"]]:
+                # here we must add the '[[number]]' at the end; it is in the 'corretta' field
                 risp[COMPLETE_STATEMENTS][group].append(rich_statement[lab["statement"]]  + ": [[" + rich_statement[lab["correct"]] + "]]")
             elif risp[lab["question_type"]] == "dd":
                 risp[COMPLETE_STATEMENTS][group].append(
-                    rich_statement[lab["statement"]].replace(risp[lab["placeholder_answer"]],"[[" + rich_statement[lab["correct"]] + "]]"))
+                    rich_statement[lab["statement"]].replace(risp[lab["answers_placeholder"]],"[[" + rich_statement[lab["correct"]] + "]]"))
             elif risp[lab["question_type"]] == "mcq":
                 if group != "1": # poiché il gruppo 1 per mcq è la domanda, deve rimanere cosí com'è e non prendere la struttura di una risposta (vedi dopo)
                     tmp = template_affermazioni
@@ -96,7 +96,7 @@ def complete_answers(risp,nomifile,lab):
             elif risp[lab["question_type"]] == "cloze" and risp[lab["cloze_type"]] == "SHORTANSWER":
                 # # if it is a SHORTANSWER kind of cloze, the answer is already composed in the filler, 'correct' says which is the placeholder and the correct filler
                 # risp[COMPLETE_STATEMENTS][group].append(rich_statement[lab["statement"]].replace(rich_statement[lab["correct"]],risp[lab["answers"]][rich_statement[lab["correct"]]]))
-                risp[COMPLETE_STATEMENTS][group].append(rich_statement[lab["statement"]].replace(risp[lab["placeholder_answer"]],
+                risp[COMPLETE_STATEMENTS][group].append(rich_statement[lab["statement"]].replace(risp[lab["answers_placeholder"]],
                                                                                               risp[lab["answers"]][
                                                                                                   group]))
             elif risp[lab["question_type"]] == "cloze":
@@ -127,9 +127,9 @@ def prepare_questions(risp, template,lab):
     # if choices are specified in the JSON file, let's ude them
     # if not, generation might be constrained
     #  if not, all possible choices are generated
-    if "choices" in risp.keys() and len(risp[lab["choices"]]) != 0:
+    if lab["choices"] in risp.keys() and len(risp[lab["choices"]]) != 0:
         varianti_scelte = risp[lab["choices"]]
-    elif "computed_choices" in risp.keys() and len(risp[lab["computed_choices"]]) != 0:
+    elif lab["computed_choices"] in risp.keys() and len(risp[lab["computed_choices"]]) != 0:
         varianti_scelte = gen_constrained_choices(risp[lab["computed_choices"]])
     else:
         varianti_scelte  = genera_varianti_scelte(groups_dimensions, int(risp[lab["number_of_statements"]]))
@@ -165,8 +165,8 @@ def prepare_questions(risp, template,lab):
 
             # here permutations is a single permutation, to avoid having questions from different groups always in the same order (if the groups are large all permutations are too many)
             #  this cannot be where permutations are generated above because a different permutation for each question is required
-            if (not "options" in risp.keys() or "all_orders" not in risp[lab["options"]]) and risp[
-                "question_type"] != "mcq":
+            if (not lab["options"] in risp.keys() or lab["all_orders"] not in risp[lab["options"]]) and risp[
+                lab["question_type"]] != "mcq":
                 shuffle = random.sample(list(range(number_of_statements)), number_of_statements)
                 perm = [shuffle]
 
@@ -175,7 +175,7 @@ def prepare_questions(risp, template,lab):
                 temp = template
 
                 if (risp[lab["question_type"]] == "mcq" and
-                        ("options" in risp and "multiple" in risp[lab["options"]] or sum(
+                        (lab["options"] in risp and lab["multiple"] in risp[lab["options"]] or sum(
                             1 for x in where_from[1:]
                             if str(x) in risp[lab["group_fractions"]]
                             and float(risp[lab["group_fractions"]][str(x)]) > 0) > 1)):
@@ -238,9 +238,9 @@ def main():
         nomefilerisposte = barename + ".json"
         if nomifile["sourcefile_prefix"] and nomifile["sourcefile_prefix"] in barename:
             barename = barename.split(nomifile["sourcefile_prefix"])[1]
-        elif nomifile["sourcefile_prefix"] and not input_path and not nomifile["sourcefile_prefix"] in barename:
+        elif nomifile["sourcefile_prefix"] and len(Path(nome).parts) == 1 and not nomifile["sourcefile_prefix"] in barename:
             nomefilerisposte = nomifile["sourcefile_prefix"] + nomefilerisposte
-        if not input_path:
+        if len(Path(nome).parts) == 1:
             input_path = nomifile["source_dir"]
 
         risposte = controlla_json_friendly(os.path.join(input_path,nomefilerisposte))
@@ -260,7 +260,7 @@ def main():
         print("numero totale domande generate", numero_totale)
         with open(os.path.join(nomifile["template_dir"],nomifile["template_quiz"]+".xml"), 'r') as shellfile:
             shell = shellfile.read()
-        template = shell.replace("__PHSINGOLEDOMANDE", questions).replace("__PHCATEGORY", risposte["category"])
+        template = shell.replace("__PHSINGOLEDOMANDE", questions).replace("__PHCATEGORY", risposte[lab["category"]])
 
 
         nomefilequiz = os.path.join(nomifile["out_dir"],nomifile["outfile_prefix"] + barename + ".xml")

@@ -1,31 +1,31 @@
 {
-"category":"prova/Antigone_one_order",
-"question_name":"Antigone di Sofocle - cloze",
+"categoria":"prova/Antigone_one_order",
+"nome_domanda":"Antigone di Sofocle - cloze",
 "INFO_question_type": "dd = drag&drop; mcq: multiple choice; cloze: cloze (con opzioni_cloze, vedi sotto)",
-"question_type":"cloze",
+"tipo_domanda":"cloze",
 "INFO_cloze_type": "ignorate se non è una domanda cloze; opzioni: MULTICHOICE_H (default), MULTICHOICE_V, MULTIRESPONSE,MULTIRESPONSE_H,MULTICHOICE_VS, MULTICHOICE_HS, MULTIRESPONSE_S,MULTIRESPONSE_HS ",
-"cloze_type": "MULTICHOICE_H",
-"number_of_statements":"4",
-"choices":[[1, 0, 3]],
-"answers":{"1": "vero","2":"falso"},
+"tipo_di_cloze": "MULTICHOICE_H",
+"numero_di_frasi":"4",
+"scelte":[[1, 0, 3]],
+"risposte":{"1": "vero","2":"falso"},
   "INFO_if_infinite": "drag&drop: indicare per ogni completamento se ce ne sono infiniti; campo opzionale, non ha senso per altri tipi di domande",
-  "if_infinite": {"1": "infinite","2":"infinite"},
-  "INFO_options": "opzioni possibili: moodle_shuffle (ha senso per risposte mcq o per etichette drag&drop), all_orders, itemized",
-  "options": ["itemized"],
-"task":"Indicate per ognuna delle frasi seguenti se è vera o falsa.",
+  "se_infinita": {"1": "infinite","2":"infinite"},
+  "INFO_options": "opzioni possibili: moodle_ordine_casuale (ha senso per risposte mcq o per etichette drag&drop), all_orders, elenco_puntato",
+  "opzioni": ["elenco_puntato"],
+"consegna":"Indicate per ognuna delle frasi seguenti se è vera o falsa.",
 
-"statements":{
+"frasi":{
 "1":[
-{"statement":"1-A: Antigone fugge da Tebe", "correct":"2"},
-{"statement":"1-B: Antigone è la promessa sposa di Emone","correct":"1"}],
+{"frase":"1-A: Antigone fugge da Tebe", "corretta":"2"},
+{"frase":"1-B: Antigone è la promessa sposa di Emone","corretta":"1"}],
 "2":[
-{"statement":"2-A: La città di Tebe ha 8 porte","correct":"2"},
-{"statement":"2-B: La città di Tebe è governata da Creonte","correct":"1"}
+{"frase":"2-A: La città di Tebe ha 8 porte","corretta":"2"},
+{"frase":"2-B: La città di Tebe è governata da Creonte","corretta":"1"}
 ],
 "3":[
-{"statement":"3-A: Ismene è sorella di Giocasta","correct":"2"},
-{"statement":"3-B: Ismene seppellisce Polinice","correct":"2"},
-{"statement":"3-C: Ismene non vuole disobbedire alla città","correct":"1"}
+{"frase":"3-A: Ismene è sorella di Giocasta","corretta":"2"},
+{"frase":"3-B: Ismene seppellisce Polinice","corretta":"2"},
+{"frase":"3-C: Ismene non vuole disobbedire alla città","corretta":"1"}
 ]
 }
 

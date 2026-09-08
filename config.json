@@ -39,46 +39,46 @@
 "WARNING4": "If you modify the values in 'necessary_input_fields' and 'meaningful_options' you must correspondingly change the labels in all input file. Adding or deleting entries requires a change in the implementation. Do NOT change the labels",
   "necessary_input_fields": {
   "all": {
-    "category": "category",
-    "question_name": "question_name",
-    "question_type": "question_type",
-    "number_of_statements": "number_of_statements",
-    "statements": "statements"
+    "category": "categoria",
+    "question_name": "nome_domanda",
+    "question_type": "tipo_domanda",
+    "number_of_statements": "numero_di_frasi",
+    "statements": "frasi"
   },
   "dd": {
-    "answers": "answers",
-    "task": "tasks",
-    "placeholder_answer":"placeholder_answer"
+    "answers": "risposte",
+    "task": "consegna",
+    "answers_placeholder":"spazio_risposta"
   },
   "cloze": {
-    "cloze_type":"cloze_type",
-    "answers": "answers",
-    "task": "task"
+    "cloze_type":"tipo_di_cloze",
+    "answers": "risposte",
+    "task": "consegna"
   },
   "mcq": {
-    "group_fractions":"group_fractions",
-    "choices":"choices"
+    "group_fractions":"frazioni_gruppi",
+    "choices":"scelte"
   },
     "none": {
-      "computed_choices": "computed_choices",
-      "options": "options",
-      "statement": "statement",
-      "correct": "correct",
-      "if_infinite": "if_infinite"
+      "computed_choices": "scelte_calcolate",
+      "options": "opzioni",
+      "statement": "frase",
+      "correct": "corretta",
+      "if_infinite": "se_infinita"
     }
 },
 "meaningful_options": {
   "mcq": {
-    "multiple": "multiple",
-    "moodle_shuffle": "moodle_shuffle"
+    "multiple": "multipla",
+    "moodle_shuffle": "moodle_ordine_casuale"
   },
 "dd": {
-  "moodle_shuffle": "moodle_shuffle",
-  "itemized": "itemized"
+  "moodle_shuffle": "moodle_ordine_casuale",
+  "itemized": "elenco_puntato"
 },
 "cloze": {
-  "all_orders": "all_orders",
-  "itemized":"itemized"
+  "all_orders": "permutazioni",
+  "itemized":"elenco_puntato"
 }},
   "cloze_types": {"one": ["MULTICHOICE_H","MULTICHOICE_V","MULTICHOICE_VS", "MULTICHOICE_HS", "SHORTANSWER"],"many":
  [ "these are not managed by the software","MULTIRESPONSE",

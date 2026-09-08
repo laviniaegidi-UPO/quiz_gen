@@ -1,0 +1,18 @@
+{
+"categoria":"esempi/chimica_mcq1",
+"nome_domanda":"Chimica - MCQ",
+"tipo_domanda":"mcq",
+"numero_di_frasi":"4",
+"scelte":[[1, 1, 2]],
+"frazioni_gruppi": {"2":"100","3": "0"},
+"opzioni": ["moodle_ordine_casuale"],
+"consegna":"la domanda qui non c'è esplicitamente: è la prima frase, per la quale ci sono molteplici scelte",
+"frasi":{
+"1": ["Quale di questi elementi chimici ha sei elettroni di valenza?",
+"Quale di questi elementi chimici insieme all'idrogeno è coinvolto nella reazione di combustione che produce solamente acqua?","Quale di questi elementi chimici è necessario in una reazione di riduzione-ossidazione perché tra i prodotti vi siano ossidi?"
+],
+"2":["ossigeno"],
+"3": ["carbonio", "vanadio", "calcio", "rutenio", "iodio", "cesio", "uranio"]
+}
+
+}

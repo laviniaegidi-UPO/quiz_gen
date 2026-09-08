@@ -48,7 +48,7 @@ def convert_to_dictionary(risp, lab):
                 if not isinstance(element, dict):
                     newelement = {}
                     newelement[lab["statement"]] = element
-                    if "group_fractions" in risp.keys() and group_label in risp[lab["group_fractions"]].keys():
+                    if lab["group_fractions"] in risp.keys() and group_label in risp[lab["group_fractions"]].keys():
                         newelement[lab["correct"]] = risp[lab["group_fractions"]][group_label]
                     else:
                         newelement[lab["correct"]] = group_label
@@ -61,13 +61,13 @@ def convert_to_dictionary(risp, lab):
 def verifica(risp, istruzioni,lab):
     num_gruppi_frasi = 0
     # first verify the existence of required fields
-    verify_field_existence(istruzioni["necessary_input_fields"]["all"], risp.keys())
+    verify_field_existence(istruzioni["necessary_input_fields"]["all"].values(), risp.keys())
     if risp[lab["question_type"]] == "dd":
-        verify_field_existence(istruzioni["necessary_input_fields"]["dd"], risp.keys())
+        verify_field_existence(istruzioni["necessary_input_fields"]["dd"].values(), risp.keys())
     elif risp[lab["question_type"]] == "cloze":
-        verify_field_existence(istruzioni["necessary_input_fields"]["cloze"], risp.keys())
+        verify_field_existence(istruzioni["necessary_input_fields"]["cloze"].values(), risp.keys())
     elif risp[lab["question_type"]] == "mcq":
-        verify_field_existence(istruzioni["necessary_input_fields"]["mcq"], risp.keys())
+        verify_field_existence(istruzioni["necessary_input_fields"]["mcq"].values(), risp.keys())
     num_aff = int(risp[lab["number_of_statements"]])
     # verify that risp[lab["statements"]] is a dictionary and that it has all keys in the range 1-num_max
     if not isinstance(risp[lab["statements"]],dict):
@@ -84,7 +84,7 @@ def verifica(risp, istruzioni,lab):
     # verify that the rich_statements have both requires fields
     for chiave, elenco in risp[lab["statements"]].items():
         for domanda in elenco:
-            if not ("statement" in domanda.keys()) or not ("correct" in domanda.keys()):
+            if not (lab["statement"] in domanda.keys()) or not (lab["correct"] in domanda.keys()):
                 error_message(f"In una delle domande del gruppo {chiave} manca un campo")
 
     # verify that each 'correct' field point to a specified 'answer'
@@ -92,13 +92,13 @@ def verifica(risp, istruzioni,lab):
         for domanda in elenco:
             if risp[lab["question_type"]] != "mcq" and domanda[lab["correct"]] not in risp[lab["answers"]].keys():
                 error_message(f"La risposta corretta indicata per la domanda \n\t {domanda[lab["statement"]]} \n({domanda[lab["correct"]]}) \nnon è tra le scelte possibili elencate in 'answers'")
-            if risp[lab["question_type"]] == "dd" and not risp[lab["placeholder_answer"]] in domanda[lab["statement"]]:
+            if risp[lab["question_type"]] == "dd" and not risp[lab["answers_placeholder"]] in domanda[lab["statement"]]:
                 error_message(
                     f"Nella domanda \n\t {domanda[lab["statement"]]} \nnon è previsto alcun 'buco' da riempire "+
-                    f"o non è usata la stringa {risp[lab["placeholder_answer"]]} dichiarata come place holder")
+                    f"o non è usata la stringa {risp[lab["answers_placeholder"]]} dichiarata come place holder")
 
     # verify that choices (if existing) make sense
-    if ("choices" in risp.keys() and (len(risp[lab["choices"]]))>0):
+    if (lab["choices"] in risp.keys() and (len(risp[lab["choices"]]))>0):
         # num_gruppi_frasi = len(risp[lab["statements"]].keys())
         for lista in risp[lab["choices"]]:
             if (len(lista) > num_gruppi_frasi):
@@ -116,15 +116,15 @@ def verifica(risp, istruzioni,lab):
         if(risp[lab["question_type"]] == "mcq"):
             verify_mcq_choices(risp,lab)
     # the following checks an advanced feature (to be completed)
-    elif ("computed_choices" in risp.keys() and len(risp[lab["computed_choices"]])>0):
+    elif (lab["computed_choices"] in risp.keys() and len(risp[lab["computed_choices"]])>0):
         sum_of_computed_choices = 0
         for constraint in risp[lab["computed_choices"]]:
-            if ("range" not in constraint.keys()) or ("choices" not in constraint.keys()):
+            if (lab["range"] not in constraint.keys()) or (lab["choices"] not in constraint.keys()):
                 error_message(f"Il campo {constraint} in 'computed_choices' non ha almeno uno dei campi 'range' e 'choices' richiesti")
             elif (len(constraint[lab["range"]]) == 0):
                 num_gruppi = len(risp[lab["statements"]])
                 warning_message(f"Avviso: verrà usato il range 1-{num_gruppi} per il vincolo {constraint} in 'computed_choices'")
-            if ("choices" in constraint.keys()):
+            if (lab["choices"] in constraint.keys()):
                 try:
                     int(constraint[lab["choices"]])
                 except:
@@ -137,13 +137,13 @@ def verifica(risp, istruzioni,lab):
                 error_message('non so gestire il tipo_cloze specificato')
     # for dd questions check that for each possible answer it is specificed whether it must be infinite
     if risp[lab["question_type"]] == "dd":
-        if not "if_infinite" in risp.keys() or ("if_infinite" in risp.keys()) and (risp[lab["if_infinite"]].keys() != risp[lab["answers"]].keys()):
+        if not lab["if_infinite"] in risp.keys() or (lab["if_infinite"] in risp.keys()) and (risp[lab["if_infinite"]].keys() != risp[lab["answers"]].keys()):
             warning_message(f"Questo messaggio compare perché per alcune o tutte le scelte drag&drop non è specificato se sono infinite e/o è specificato anche per scelte non esistenti."+
                         f"\nVerranno trattate come finite le scelte per cui  non è specificato nulla; verrà ignorata la specifica per scelte non esistenti.")
     # verifify options
-    if "options" in risp.keys():
+    if lab["options"] in risp.keys():
         for option in risp[lab["options"]]:
-            if not option in istruzioni["meaningful_options"][risp[lab["question_type"]]]:
+            if not option in istruzioni["meaningful_options"][risp[lab["question_type"]]].values():
                 warning_message(f"L'opzione {option} non ha senso per questo tipo di domanda, verrà ignorata.")
 
 def controlla_json_friendly(percorso_file):

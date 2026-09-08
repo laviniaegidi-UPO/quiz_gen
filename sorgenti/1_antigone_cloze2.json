@@ -1,26 +1,26 @@
 {
-"category":"prova/Antigone_cloze",
-"question_name":"Antigone di Sofocle - cloze",
-"question_type":"cloze",
-"cloze_type": "MULTICHOICE_H",
-"number_of_statements":"4",
-"choices":[[1, 0, 3]],
-"answers":{"1": "vero","2":"falso"},
-"options": ["itemized", "all_orders"],
-"task":"Indicate per ognuna delle frasi seguenti se è vera o falsa.",
+"categoria":"prova/Antigone_cloze",
+"nome_domanda":"Antigone di Sofocle - cloze",
+"tipo_domanda":"cloze",
+"tipo_di_cloze": "MULTICHOICE_H",
+"numero_di_frasi":"4",
+"scelte":[[1, 0, 3]],
+"risposte":{"1": "vero","2":"falso"},
+"opzioni": ["elenco_puntato", "permutazioni"],
+"consegna":"Indicate per ognuna delle frasi seguenti se è vera o falsa.",
 
-"statements":{
+"frasi":{
 "1":[
-{"statement":"Antigone fugge da Tebe", "correct":"2"},
-{"statement":"Antigone è la promessa sposa di Emone","correct":"1"}],
+{"frase":"Antigone fugge da Tebe", "corretta":"2"},
+{"frase":"Antigone è la promessa sposa di Emone","corretta":"1"}],
 "2":[
-{"statement":"La città di Tebe ha 8 porte","correct":"2"},
-{"statement":"La città di Tebe è governata da Creonte","correct":"1"}
+{"frase":"La città di Tebe ha 8 porte","corretta":"2"},
+{"frase":"La città di Tebe è governata da Creonte","corretta":"1"}
 ],
 "3":[
-{"statement":"Ismene è sorella di Giocasta","correct":"2"},
-{"statement":"Ismene seppellisce Polinice","correct":"2"},
-{"statement":"Ismene non vuole disobbedire alla città","correct":"1"}
+{"frase":"Ismene è sorella di Giocasta","corretta":"2"},
+{"frase":"Ismene seppellisce Polinice","corretta":"2"},
+{"frase":"Ismene non vuole disobbedire alla città","corretta":"1"}
 ]
 }
 
