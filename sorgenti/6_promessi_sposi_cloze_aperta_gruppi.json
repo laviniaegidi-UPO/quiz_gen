@@ -3,8 +3,8 @@
 "nome_domanda": "Promessi Sposi - cloze aperta",
 "tipo_domanda":"cloze",
 "tipo_di_cloze": "SHORTANSWER",
-"numero_di_frasi":"4",
-"scelte": [[1,1,1,1],[1,2,1,0]],
+"numero_di_frasi":"3",
+"scelte": [],
 "risposte":{
 "1":"{1:SHORTANSWER:=Renzo~=Renzo Tramaglino}","2":"{1:SHORTANSWER:=Don Abbondio}"
 },
@@ -15,13 +15,12 @@
 "frasi":{
 "1":
 ["Il fidanzato di Lucia è __DARIEMPIRE",
-"__DARIEMPIRE va da Azzeccagarbugli"],
+"__DARIEMPIRE va da Azzeccagarbugli"
+],
 "2":
 ["I bravi di Don Rodrigo minacciano __DARIEMPIRE",
 "__DARIEMPIRE viene descritto come vaso di coccio tra i vasi di ferro",
-"La frase piú famosa di __DARIEMPIRE è 'Carneade, chi era costui?'"]
-}
-
-
-          
-       
+"La frase piú famosa di __DARIEMPIRE è 'Carneade, chi era costui?'"
+]
+} 
+}   

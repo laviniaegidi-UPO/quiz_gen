@@ -243,7 +243,9 @@ def main():
         if len(Path(nome).parts) == 1:
             input_path = nomifile["source_dir"]
 
-        risposte = controlla_json_friendly(os.path.join(input_path,nomefilerisposte))
+        nomefilerisposte = os.path.join(input_path,nomefilerisposte)
+        print(f"\n\n➡️ Elaborazione di {nomefilerisposte}")
+        risposte = controlla_json_friendly(nomefilerisposte)
 
         verifica(risposte, cfg, lab)
         print("✅ Il file", nomefilerisposte, "contiene i campi previsti e, per quanto verificato, è logicamente corretto")

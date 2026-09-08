@@ -1,5 +1,5 @@
 {
-"categoria":"prova/inglese_dd",
+"categoria":"esempi/inglese_dd",
 "nome_domanda":"Animal groups - dd",
 "tipo_domanda":"dd",
 "numero_di_frasi":"3",
@@ -12,16 +12,16 @@
 
 "frasi":{
 "1":[
-{"frase":"a pride of lions","corretta":"1"},
-{"frase":"a school of fish","corretta":"2"},
-{"frase":"a flock of geese","corretta":"3"},
-{"frase":"a herd of cows","corretta":"4"},
-{"frase":"a flock of sheep","corretta":"3"},
-{"frase":"a pod of dolphins","corretta":"5"},
-{"frase":"a pod of wales","corretta":"5"},
-{"frase":"a pack of wolves","corretta":"6"},
-{"frase":"a murder of crows","corretta":"6"}
-{"frase":"a pack of dogs""corretta":"7"}
+{"frase":"a __DARIEMPIRE of lions","corretta":"1"},
+{"frase":"a __DARIEMPIRE of fish","corretta":"2"},
+{"frase":"a __DARIEMPIRE of geese","corretta":"3"},
+{"frase":"a __DARIEMPIRE of cows","corretta":"4"},
+{"frase":"a __DARIEMPIRE of sheep","corretta":"3"},
+{"frase":"a __DARIEMPIRE of dolphins","corretta":"5"},
+{"frase":"a __DARIEMPIRE of wales","corretta":"5"},
+{"frase":"a __DARIEMPIRE of wolves","corretta":"6"},
+{"frase":"a __DARIEMPIRE of crows","corretta":"7"},
+{"frase":"a __DARIEMPIRE of dogs","corretta":"6"}
 ]
 }
 

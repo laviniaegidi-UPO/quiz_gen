@@ -8,15 +8,15 @@
   "exec":[    "ALL"
   ],
    "database": [
-    "1_antigone_cloze2",
-"2_antigone_1o",
-"3_antigone_ao",
-"4_guerrieri_mcqM",
-"5_sofocle_mcq1",
-"6_antigone_cloze_aperta",
-     "6_antigone_cloze_aperta_ALT",
-     "7_tragedie_cloze3",
-    "8_tragedie_dd"
+"1_antigone_cloze2",
+"2_antigone_1perm",
+"3_antigone_tutte_perm",
+"4_chimica_mcq1",
+"5_biancaneve_mcqM",
+"6_promessi_sposi_cloze_aperta_gruppi",
+"7_shakespeare_cloze_aperta",
+"9_colori_cloze5",
+"8_inglese_dd"
    ],
   "filenames": {
     "sourcefile_prefix": "",

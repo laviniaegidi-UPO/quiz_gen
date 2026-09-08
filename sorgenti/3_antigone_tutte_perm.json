@@ -1,6 +1,6 @@
 {
-"categoria":"prova/Antigone_one_order",
-"nome_domanda":"Antigone di Sofocle - cloze",
+"categoria":"esempi/Antigone_tutte_le_permutazioni",
+"nome_domanda":"Antigone di Sofocle - tutte le permutazioni",
 "INFO_question_type": "dd = drag&drop; mcq: multiple choice; cloze: cloze (con opzioni_cloze, vedi sotto)",
 "tipo_domanda":"cloze",
 "INFO_cloze_type": "ignorate se non è una domanda cloze; opzioni: MULTICHOICE_H (default), MULTICHOICE_V, MULTIRESPONSE,MULTIRESPONSE_H,MULTICHOICE_VS, MULTICHOICE_HS, MULTIRESPONSE_S,MULTIRESPONSE_HS ",
@@ -11,7 +11,7 @@
   "INFO_if_infinite": "drag&drop: indicare per ogni completamento se ce ne sono infiniti; campo opzionale, non ha senso per altri tipi di domande",
   "se_infinita": {"1": "infinite","2":"infinite"},
   "INFO_options": "opzioni possibili: moodle_ordine_casuale (ha senso per risposte mcq o per etichette drag&drop), all_orders, elenco_puntato",
-  "opzioni": ["elenco_puntato"],
+  "opzioni": ["elenco_puntato", "permutazioni"],
 "consegna":"Indicate per ognuna delle frasi seguenti se è vera o falsa.",
 
 "frasi":{

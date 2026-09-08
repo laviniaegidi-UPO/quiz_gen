@@ -150,48 +150,49 @@ def controlla_json_friendly(percorso_file):
     try:
         with open(percorso_file, 'r', encoding='utf-8') as f:
             contenuto = f.read()
-        # Proviamo a caricare il JSON
+
         dati = json.loads(contenuto)
         print(f"✅ Il file {percorso_file} è sintatticamente corretto")
         return dati
 
     except FileNotFoundError:
-        error_message(f" Errore: Il file '{percorso_file}' non esiste.")
+        print(f"❌ Errore: Il file '{percorso_file}' non esiste.")
+        sys.exit(1)
 
     except json.JSONDecodeError as e:
         print("❌ Errore di sintassi nel JSON rilevato!\n")
         print(f"📌 Dettagli dell'errore:")
-        print(f"   - Messaggio: {e.msg}")
+
+        # Se l'errore è "Expecting ',' delimiter" ma siamo a fine riga/fine file,
+        # significa quasi sempre che manca un '}' o un ']' di chiusura.
+        messaggio_chiaro = e.msg
+        if "Expecting ',' delimiter" in e.msg:
+            messaggio_chiaro += " ⚠️ (Nota: Spesso questo errore indica che manca una '}' o ']' di chiusura alla fine dell'oggetto o dell'ultimo elemento!)"
+
+        print(f"   - Messaggio: {messaggio_chiaro}")
         print(f"   - Riga:      {e.lineno}")
         print(f"   - Colonna:   {e.colno}")
         print("-" * 50)
 
-        # Mostriamo un'anteprima visiva di dove si trova l'errore
         righe = contenuto.splitlines()
-        riga_errore_idx = e.lineno - 1  # Gli indici delle liste partono da 0
+        riga_errore_idx = e.lineno - 1
 
         print("🔍 Anteprima del codice:")
 
-        # Mostriamo la riga precedente per contesto (se esiste)
         if riga_errore_idx > 0:
             print(f"  {e.lineno - 1:4d} | {righe[riga_errore_idx - 1]}")
 
-        # Mostriamo la riga con l'errore
         if riga_errore_idx < len(righe):
             riga_corrente = righe[riga_errore_idx]
             print(f"👉 {e.lineno:4d} | {riga_corrente}")
-            # Creiamo un puntatore '^' che indica la colonna esatta dell'errore
-            spazi = " " * (e.colno - 1)
-            # 8 spazi aggiuntivi per compensare la formattazione iniziale "👉 1234 | "
-            print(f"         {spazi}^--- Errore prima di questo punto")
+            spazi = " " * max(0, e.colno - 1)
+            print(f"         {spazi}^--- Errore qui o elemento non chiuso precedentemente")
 
-        # Mostriamo la riga successiva per contesto (se esiste)
         if riga_errore_idx < len(righe) - 1:
             print(f"  {e.lineno + 1:4d} | {righe[riga_errore_idx + 1]}")
 
         print("-" * 50)
         sys.exit(1)
-        return False
 
 
 def formatta_json(nome_file):

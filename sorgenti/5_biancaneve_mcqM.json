@@ -1,5 +1,5 @@
 {
-"categoria":"prova/biancaneve_mcqM",
+"categoria":"esempi/biancaneve_mcqM",
 "nome_domanda":"Biancaneve - MCQmulti",
 "tipo_domanda":"mcq",
 "numero_di_frasi":"5",
@@ -31,15 +31,15 @@
 "Aladino",
 "Bestia",
 "Pollicino",
-"Hänsel",
+"Haensel",
 "Ciuchino"],
 "5": ["Tremotino",
 "Shreck",
 "Aladino",
 "Bestia",
 "Pollicino",
-"Hänsel",
-"Ciuchino"],
+"Haensel",
+"Ciuchino"]
 }
 
 }
