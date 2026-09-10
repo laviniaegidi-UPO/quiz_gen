@@ -14,7 +14,7 @@ from pathlib import Path
 import random
 from itertools import permutations
 from combinatorics import genera_combinazioni, gen_constrained_choices, genera_varianti_scelte
-from verify import controlla_json_friendly, verifica
+from verify import controlla_json_friendly, verifica, error_message, warning_message
 import sys
 import os
 
@@ -28,7 +28,35 @@ def parse_args():
 
     parser.add_argument("-i", "--input", help="file in input", type=str,
                         nargs=1)
+    parser.add_argument("-c", "--concat", help="concatena i file specificati nel file config", action='store_true')
     return parser.parse_args(), parser
+
+def convert_to_dictionary(risp, lab):
+    statements = risp[lab["statements"]]
+    has_non_dict = any(
+        not isinstance(elemento, dict)
+        for group in statements.values()
+        for elemento in group
+    )
+    if has_non_dict:
+        newstatements = {}
+        for group_label, group in zip(statements.keys(),statements.values()):
+            newstatements[group_label] = []
+            for element in group:
+                if not isinstance(element, dict):
+                    newelement = {}
+                    newelement[lab["statement"]] = element
+                    if lab["group_fractions"] in risp.keys() and group_label in risp[lab["group_fractions"]].keys():
+                        newelement[lab["correct"]] = risp[lab["group_fractions"]][group_label]
+                    elif lab["group_fractions"] in risp.keys() and not group_label in risp[lab["group_fractions"]].keys():
+                        newelement[lab["correct"]] = 0
+                    else:
+                        newelement[lab["correct"]] = group_label
+                else:
+                    newelement = element
+                newstatements[group_label].append(newelement)
+        return newstatements
+    return statements
 
 def genera_template(risp, nomifile,lab):
 
@@ -39,7 +67,7 @@ def genera_template(risp, nomifile,lab):
     template = template.replace("_PHCONSEGNA", risp[lab["task"]])
 
     affermazioni = "__PHAFFERMAZIONE"
-    itemized = (lab["options"] in risp.keys() and "itemized" in risp[lab["options"]])
+    itemized = (lab["options"] in risp.keys() and lab["itemized"] in risp[lab["options"]])
     range_phaffermazione_start =0
     if risp[lab["question_type"]] == "mcq":
         itemized=False
@@ -53,7 +81,7 @@ def genera_template(risp, nomifile,lab):
     affermazioni = affermazioni.replace("__PHAFF_LISTA", "")
     template = template.replace("__PHELENCOAFFERMAZIONI",affermazioni)
 
-    if lab["options"] in risp.keys() and "moodle_shuffle" in risp[lab["options"]]:
+    if lab["options"] in risp.keys() and lab["moodle_shuffle"] in risp[lab["options"]]:
         template = template.replace("__PHSHUFFLE", "1")
     else:
         template = template.replace("__PHSHUFFLE", "0")
@@ -198,11 +226,53 @@ def prepare_questions(risp, template,lab):
         numero_totale_domande = numero_q - 1
     return tutte_le_domande, numero_totale_domande
 
+def concatena(cfg,da_concatenare,nomifile):
+    print(f"➡️ Concatenazione dei quiz:")
+
+    with open(os.path.join(nomifile["template_dir"], nomifile["template_quiz"] + ".xml"), 'r') as shellfile:
+        shell_lines = shellfile.readlines()
+
+    quiz_completo = shell_lines[:2]
+
+    for nome in da_concatenare:
+        barename = Path(nome).stem
+        input_path = Path(nome).parent
+        nomefilequiz = barename + ".xml"
+        # if nomifile["outfile_prefix"] and nomifile["outfile_prefix"] in barename:
+        #     barename = barename.split(nomifile["outfile_prefix"])[1] # questo non serve piú, credo
+        # elif nomifile["outfile_prefix"] and len(Path(nome).parts) == 1 and not nomifile[
+        #                                                                               "outfile_prefix"] in barename:
+        #     nomefilequiz = nomifile["outfile_prefix"] + nomefilequiz
+        if nomifile["outfile_prefix"] and len(Path(nome).parts) == 1 and not nomifile[
+                                                                                      "outfile_prefix"] in barename:
+            nomefilequiz = nomifile["outfile_prefix"] + nomefilequiz
+        if len(Path(nome).parts) == 1:
+            input_path = nomifile["out_dir"]
+
+        nomefilequiz = os.path.join(input_path, nomefilequiz)
+        print(f"\t{nomefilequiz}")
+
+        # Apri il file originale in lettura e quello nuovo in scrittura
+        with open(nomefilequiz, "r", encoding="utf-8") as quiz:
+            righe = quiz.readlines()
+
+        # Seleziona dalla terza riga (indice 2) fino alla penultima (indice -1 escluso)
+        contenuto_quiz = righe[2:-1]
+
+        quiz_completo = quiz_completo + ["\n"] + contenuto_quiz
+
+    quiz_completo = quiz_completo + shell_lines[-1:]
+    concat_file = os.path.join(nomifile["out_dir"], nomifile["concat_quiz"]+".xml")
+    with open(concat_file, "w", encoding="utf-8") as file_quiz_completo:
+        file_quiz_completo.writelines(quiz_completo)
+
+    print(f"\n➡️ Output salvato in {concat_file}")
+    sys.exit(0)
 
 def main():
     file_config = FILE_CONFIG
     if not os.path.exists(file_config):
-        print("Errore! Non esiste il file '{:s}'".format(file_config))
+        print("❌❌Errore! Non esiste il file '{:s}'".format(file_config))
         sys.exit(1)
 
     cfg = controlla_json_friendly(file_config)
@@ -211,6 +281,16 @@ def main():
 
     nomifile = cfg["filenames"]
     nomifile.update(cfg["templates"])
+
+
+    if len(sys.argv) > 1 and parse_args()[0].concat:
+        warning_message("È stata richiesta la concatenazione di file\n")
+        if cfg["exec"] and not "ALL" in cfg["exec"]:
+            concatena(cfg,cfg["exec"], nomifile)
+        elif cfg["exec"] and "ALL" in cfg["exec"]:
+            concatena(cfg,cfg["database"], nomifile)
+        else:
+            error_message(f"Nel file di configurazione {file_config} non sono specificati file da concatenare")
 
     lab = {}
     for key in cfg["necessary_input_fields"]:
@@ -249,6 +329,9 @@ def main():
 
         verifica(risposte, cfg, lab)
         print("✅ Il file", nomefilerisposte, "contiene i campi previsti e, per quanto verificato, è logicamente corretto")
+
+        # each statement can be a dictionary or it can be simple: it will be converted here to dictionary
+        risposte[lab["statements"]] = convert_to_dictionary(risposte, lab)
 
         template = genera_template(risposte, nomifile, lab)
 

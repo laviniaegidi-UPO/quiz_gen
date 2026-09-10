@@ -33,31 +33,6 @@ def verify_mcq_choices(risp, lab):
         if somma != 100:
             error_message(f"La somma delle frazioni delle risposte corrette deve essere 100. Per la scelta {choice} la somma è {somma}")
 
-def convert_to_dictionary(risp, lab):
-    statements = risp[lab["statements"]]
-    has_non_dict = any(
-        not isinstance(elemento, dict)
-        for group in statements.values()
-        for elemento in group
-    )
-    if has_non_dict:
-        newstatements = {}
-        for group_label, group in zip(statements.keys(),statements.values()):
-            newstatements[group_label] = []
-            for element in group:
-                if not isinstance(element, dict):
-                    newelement = {}
-                    newelement[lab["statement"]] = element
-                    if lab["group_fractions"] in risp.keys() and group_label in risp[lab["group_fractions"]].keys():
-                        newelement[lab["correct"]] = risp[lab["group_fractions"]][group_label]
-                    else:
-                        newelement[lab["correct"]] = group_label
-                else:
-                    newelement = element
-                newstatements[group_label].append(newelement)
-        return newstatements
-    return statements
-
 def verifica(risp, istruzioni,lab):
     num_gruppi_frasi = 0
     # first verify the existence of required fields
@@ -78,24 +53,24 @@ def verifica(risp, istruzioni,lab):
             print(risp[lab["statements"]].keys(),chiavi_continue)
             error_message(
                 f"I gruppi di risposte devono essere numerati da 1 a {len(risp[lab["statements"]].keys())}, mancano {chiavi_continue-risp[lab["statements"]].keys()}")
-    # each statement can be a dictionary or it can be simple: it will be converted here to dictionary
-    risp[lab["statements"]] = convert_to_dictionary(risp, lab)
-    # print (f"risp['statements'] {risp[lab["statements"]]}")
-    # verify that the rich_statements have both requires fields
-    for chiave, elenco in risp[lab["statements"]].items():
-        for domanda in elenco:
-            if not (lab["statement"] in domanda.keys()) or not (lab["correct"] in domanda.keys()):
-                error_message(f"In una delle domande del gruppo {chiave} manca un campo")
 
-    # verify that each 'correct' field point to a specified 'answer'
+    # a lab["sentence"] can be a list or a dict; if it is a dict it must have both required fields
+
     for chiave, elenco in risp[lab["statements"]].items():
         for domanda in elenco:
-            if risp[lab["question_type"]] != "mcq" and domanda[lab["correct"]] not in risp[lab["answers"]].keys():
-                error_message(f"La risposta corretta indicata per la domanda \n\t {domanda[lab["statement"]]} \n({domanda[lab["correct"]]}) \nnon è tra le scelte possibili elencate in 'answers'")
-            if risp[lab["question_type"]] == "dd" and not risp[lab["answers_placeholder"]] in domanda[lab["statement"]]:
-                error_message(
-                    f"Nella domanda \n\t {domanda[lab["statement"]]} \nnon è previsto alcun 'buco' da riempire "+
-                    f"o non è usata la stringa {risp[lab["answers_placeholder"]]} dichiarata come place holder")
+            if isinstance(domanda, dict):
+                # verify that the rich_statements have both requires fields
+                if not (lab["statement"] in domanda.keys()) or not (lab["correct"] in domanda.keys()):
+                    error_message(f"In una delle domande del gruppo {chiave} manca un campo")
+
+                # verify that each 'correct' field point to a specified 'answer'
+                if risp[lab["question_type"]] != "mcq" and domanda[lab["correct"]] not in risp[lab["answers"]].keys():
+                    error_message(f"La risposta corretta indicata per la domanda \n\t {domanda[lab["statement"]]} \n({domanda[lab["correct"]]}) \nnon è tra le scelte possibili elencate in 'answers'")
+                #verify that each dd question has a hole to be filled
+                if risp[lab["question_type"]] == "dd" and not risp[lab["answers_placeholder"]] in domanda[lab["statement"]]:
+                    error_message(
+                        f"Nella domanda \n\t {domanda[lab["statement"]]} \nnon è previsto alcun 'buco' da riempire "+
+                        f"o non è usata la stringa {risp[lab["answers_placeholder"]]} dichiarata come place holder")
 
     # verify that choices (if existing) make sense
     if (lab["choices"] in risp.keys() and (len(risp[lab["choices"]]))>0):

@@ -5,7 +5,7 @@
 
   "WARNING": "Do NOT change the labels in any of the following dictionaries",
 
-  "exec":[    "ALL"
+  "exec":[   "ALL"
   ],
    "database": [
 "1_antigone_cloze2",
@@ -22,7 +22,8 @@
     "sourcefile_prefix": "",
     "outfile_prefix": "quiz_",
     "source_dir": "sorgenti",
-    "out_dir": "quiz"
+    "out_dir": "quiz",
+    "concat_quiz": "quiz_concat"
   },
 "WARNING1": "-------------------------------------------------------------------------------------",
 "WARNING2": "If you change the values in 'templates' you must change the corresponding file names accordingly. Do NOT change the labels",
@@ -64,7 +65,7 @@
       "options": "opzioni",
       "statement": "frase",
       "correct": "corretta",
-      "if_infinite": "se_infinita"
+      "if_infinite": "se_infinite"
     }
 },
 "meaningful_options": {
