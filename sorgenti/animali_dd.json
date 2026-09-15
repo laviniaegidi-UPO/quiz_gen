@@ -1,0 +1,27 @@
+{
+"categoria":"esempi/animali_dd",
+"nome_domanda":"Gruppi di animali - dd",
+"tipo_domanda":"dd",
+"numero_di_frasi":"3",
+"scelte":[],
+"risposte":{"1":"branco","2":"gregge","3":"nugolo","4":"colonia","5":"banco"},
+"se_infinite": {"1": "infinite","2":"infinite","3":"infinite","4":"infinite","5":"infinite"},
+"opzioni":["elenco_puntato","moodle_ordine_casuale"],
+"consegna":"Completate le seguenti frasi nel modo corretto",
+"spazio_risposta":"__DARIEMPIRE",
+
+"frasi":{
+"1":[
+{"frase":"__DARIEMPIRE di lupi","corretta":"1"},
+{"frase":"__DARIEMPIRE di pecore","corretta":"2"},
+{"frase":"__DARIEMPIRE di moscerini","corretta":"3"},
+{"frase":"__DARIEMPIRE di api","corretta":"4"},
+{"frase":"__DARIEMPIRE di pinguini","corretta":"4"},
+{"frase":"__DARIEMPIRE di mosche","corretta":"3"},
+{"frase":"__DARIEMPIRE di pesci","corretta":"5"},
+{"frase":"__DARIEMPIRE di delfini","corretta":"5"},
+{"frase":"__DARIEMPIRE di formiche","corretta":"4"}
+]
+}
+
+}

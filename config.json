@@ -5,25 +5,26 @@
 
   "WARNING": "Do NOT change the labels in any of the following dictionaries",
 
-  "exec":[   "ALL"
+  "exec":[  "ALL"
   ],
    "database": [
-"1_antigone_cloze2",
-"2_antigone_1perm",
-"3_antigone_tutte_perm",
-"4_chimica_mcq1",
-"5_biancaneve_mcqM",
-"6_promessi_sposi_cloze_aperta_gruppi",
-"7_shakespeare_cloze_aperta",
-"9_colori_cloze5",
-"8_inglese_dd"
+"animali_dd",
+"antigone_cloze_vf",
+"biancaneve_mcqM",
+"chimica_mcq1",
+"colori_cloze_5",
+"esempio_1perm",
+"esempio_tutte_perm",
+"inglese_dd",
+"promessi_sposi_cloze_aperta_gruppi",
+"shakespeare_cloze_aperta"
    ],
   "filenames": {
     "sourcefile_prefix": "",
     "outfile_prefix": "quiz_",
     "source_dir": "sorgenti",
     "out_dir": "quiz",
-    "concat_quiz": "quiz_concat"
+    "concat_quiz": "000_tutti_i_quiz"
   },
 "WARNING1": "-------------------------------------------------------------------------------------",
 "WARNING2": "If you change the values in 'templates' you must change the corresponding file names accordingly. Do NOT change the labels",
@@ -70,12 +71,13 @@
 },
 "meaningful_options": {
   "mcq": {
-    "multiple": "multipla",
+    "multiple": "risposte_multiple",
     "moodle_shuffle": "moodle_ordine_casuale"
   },
 "dd": {
   "moodle_shuffle": "moodle_ordine_casuale",
-  "itemized": "elenco_puntato"
+  "itemized": "elenco_puntato",
+  "all_orders": "permutazioni"
 },
 "cloze": {
   "all_orders": "permutazioni",

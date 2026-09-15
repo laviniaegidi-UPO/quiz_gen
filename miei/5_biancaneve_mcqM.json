@@ -4,8 +4,8 @@
 "tipo_domanda":"mcq",
 "numero_di_frasi":"5",
 "scelte":[[1,1,0,3],[1,0,2,0,2]],
-"frazioni_gruppi": {"2":"100","3":"50","5":"-50"},
-"opzioni": ["moodle_ordine_casuale","multipla"],
+"frazioni_gruppi": {"2":"100","3":"50","5":"-50","4":"-33,33333"},
+"opzioni": ["moodle_ordine_casuale","risposte_multiple"],
 "consegna":"la domanda qui non c'è esplicitamente: è la prima frase, per la quale ci sono molteplici scelte",
 "frasi":{
 "1": ["Quale di questi è un amico di Biancaneve?",
