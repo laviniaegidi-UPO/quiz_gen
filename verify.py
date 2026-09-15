@@ -26,15 +26,35 @@ def verify_mcq_choices(risp, lab):
     for i in range(len(risp[lab["statements"]])):
         if str(i+1) not in risp[lab["group_fractions"]].keys():
             risp[lab["group_fractions"]][str(i+1)] = "0"
+    for key in risp[lab["group_fractions"]]:
+        risp[lab["group_fractions"]][key] = risp[lab["group_fractions"]][key].replace(',','.')
     for choice in risp[lab["choices"]]:
-        if (choice[0] != 1):
+        if choice[0] != 1:
             error_message(f"Nella scelta {choice} il primo elemento deve sempre essere '1' ed è invece {choice[0]}")
         somma = sum(int(choice[i])*float(risp[lab["group_fractions"]][str(i+1)]) for i in range(1,len(choice)) if float(risp[lab["group_fractions"]][str(i+1)]) > 0)
         if somma != 100:
             error_message(f"La somma delle frazioni delle risposte corrette deve essere 100. Per la scelta {choice} la somma è {somma}")
 
+        multiple_answers = lab["options"] in risp and lab["multiple"] in risp[lab["options"]] or sum(choice[int(i)-1] for i in risp[lab["group_fractions"]]
+                                                                                                     if (len(choice) >= int(i) > 1 and float(risp[lab["group_fractions"]][i]) > 0) > 1)
+        a_null_fraction = sum(1 for i in risp[lab["group_fractions"]]
+            if (int(i) <= len(choice) and int(i) > 0 and choice[int(i)-1] > 1 and float(risp[lab["group_fractions"]][i]) == 0) > 0)
+        # if len(choice) >= 5:
+        #     print(f"a_null_fraction = {a_null_fraction}")
+        #     flotta = float(risp[lab['group_fractions']][i]
+        #     print(f"choice: {choice}, i: {i}; choice[int(i)-1] {choice[int(i)-1]}, group fraction: {flotta}")
+        if multiple_answers and a_null_fraction:
+            warning_message(f"La domanda accetta risposte multiple, ma per la scelta {choice} sono definite opzioni con punteggio 0")
+
+
+        # multiple_answers = lab["options"] in risp and lab["multiple"] in risp[lab["options"]] or sum(
+        #     1 for x in choice
+        #     if 0 == (x > 0 and
+        #              str(x) in risp[lab["group_fractions"]]
+        #              and float(risp[lab["group_fractions"]][str(x)]) == 0)
+
+
 def verifica(risp, istruzioni,lab):
-    num_gruppi_frasi = 0
     # first verify the existence of required fields
     verify_field_existence(istruzioni["necessary_input_fields"]["all"].values(), risp.keys())
     if risp[lab["question_type"]] == "dd":
@@ -73,12 +93,12 @@ def verifica(risp, istruzioni,lab):
                         f"o non è usata la stringa {risp[lab["answers_placeholder"]]} dichiarata come place holder")
 
     # verify that choices (if existing) make sense
-    if (lab["choices"] in risp.keys() and (len(risp[lab["choices"]]))>0):
+    if lab["choices"] in risp.keys() and (len(risp[lab["choices"]]))>0:
         # num_gruppi_frasi = len(risp[lab["statements"]].keys())
         for lista in risp[lab["choices"]]:
-            if (len(lista) > num_gruppi_frasi):
+            if len(lista) > num_gruppi_frasi:
                 error_message(f"La lista {lista} in 'varianti_scelte' non ha la lunghezza giusta: deve avere al massimo {num_gruppi_frasi} elementi, quanto il numero di gruppi di frasi")
-            elif (len(lista) < num_gruppi_frasi):
+            elif len(lista) < num_gruppi_frasi:
                 warning_message(f"La lista {lista} in 'varianti_scelte' è piú corta del numero dei gruppi di frasi {num_gruppi_frasi}. Per i rimanenti gruppi verrà considerato 0. ")
             somma = sum(lista)
             if somma != num_aff:
@@ -88,24 +108,24 @@ def verifica(risp, istruzioni,lab):
                     if choice[i] > len(risp[lab["statements"]][str(i+1)]):
                         error_message(f"Non ci sono abbastanza frasi per l'{i+1}-esima scelta {choice[i]} in {choice}")
         # verifies that that the first statement (which serves as question) is always chosen exactly once (choice = 1) and that the answer fractions sum to 100
-        if(risp[lab["question_type"]] == "mcq"):
+        if risp[lab["question_type"]] == "mcq":
             verify_mcq_choices(risp,lab)
     # the following checks an advanced feature (to be completed)
-    elif (lab["computed_choices"] in risp.keys() and len(risp[lab["computed_choices"]])>0):
+    elif lab["computed_choices"] in risp.keys() and len(risp[lab["computed_choices"]])>0:
         sum_of_computed_choices = 0
         for constraint in risp[lab["computed_choices"]]:
             if (lab["range"] not in constraint.keys()) or (lab["choices"] not in constraint.keys()):
                 error_message(f"Il campo {constraint} in 'computed_choices' non ha almeno uno dei campi 'range' e 'choices' richiesti")
-            elif (len(constraint[lab["range"]]) == 0):
+            elif len(constraint[lab["range"]]) == 0:
                 num_gruppi = len(risp[lab["statements"]])
                 warning_message(f"Avviso: verrà usato il range 1-{num_gruppi} per il vincolo {constraint} in 'computed_choices'")
-            if (lab["choices"] in constraint.keys()):
+            if lab["choices"] in constraint.keys():
                 try:
                     int(constraint[lab["choices"]])
                 except:
                     error_message(f"Il campo 'choices' in {constraint} di  'computed_choices' deve essere un intero")
             sum_of_computed_choices = sum_of_computed_choices + int(constraint[lab["choices"]])
-        if (sum_of_computed_choices != num_aff):
+        if sum_of_computed_choices != num_aff:
             error_message(f"le scelte in 'computed_choices' sono in totale {sum_of_computed_choices} ma il numero richiesto in 'number_of_statements è {num_aff}")
     # check that the cloze type is among those managed
     if risp[lab["question_type"]] == "cloze" and not risp[lab["cloze_type"]] in istruzioni["cloze_types"]["one"]:
@@ -194,7 +214,7 @@ def main (nomefile):
     formatta_json(nomefile)
     print("sono qui, il file è", nomefile)
     controlla_json_friendly(nomefile)
-    return(0)
+    return 0
 
 if __name__ == "__main__":
     # sys.argv contiene gli argomenti passati da riga di comando.
