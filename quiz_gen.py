@@ -25,13 +25,13 @@ def parse_args():
     parser.add_argument("-i", "--input", help="file in input", type=str)
     parser.add_argument("-d", "--directory", help="elaborare tutti i file nella directory in input (se non viene specificata la directory, viene usata quella di default)",
                         type=str, nargs='?', const = '-')
-    parser.add_argument("-c", "--concat", help="concatena i file specificati nel file config", action='store_true')
+    parser.add_argument("-c", "--concat", help="concatena i file specificati nella cartella specificata o nel file config", type=str)
     return parser.parse_args(), parser
 
-def forallfiles(input_directory,complete_quiz):
+def forallfiles(input_directory,complete_quiz, extension):
     allfiles = []
     for filename in os.listdir(input_directory):
-        if filename.endswith(".json") and not filename.startswith(complete_quiz):
+        if filename.endswith("."+extension) and not filename.startswith(complete_quiz):
             allfiles.append(os.path.join(input_directory,filename))
     return allfiles
 
@@ -40,7 +40,12 @@ def verify_template_existence(names):
         if not os.path.exists(temp_name):
             error_message(f"Errore! Non esiste il template {temp_name}. Devono esistere i template necessari.")
 
-def concatena(cfg,da_concatenare,nomifile):
+def concatena(cfg,dir_da_concatenare,nomifile):
+
+    da_concatenare = forallfiles(dir_da_concatenare, nomifile["concat_quiz"], "xml")
+    if len(da_concatenare) == 0:
+        error_message(f"Nella cartella {dir_da_concatenare} non ci sono quiz")
+
     print(f"➡️ Concatenazione dei quiz:")
 
     with open( nomifile["template_quiz"], 'r') as shellfile:
@@ -48,39 +53,20 @@ def concatena(cfg,da_concatenare,nomifile):
 
     quiz_completo = shell_lines[:2]
 
-    for nome in da_concatenare:
-        barename = Path(nome).stem
-        input_path = Path(nome).parent
-        nomefilequiz = barename + ".xml"
-        # if nomifile["outfile_prefix"] and nomifile["outfile_prefix"] in barename:
-        #     barename = barename.split(nomifile["outfile_prefix"])[1] # questo non serve piú, credo
-        # elif nomifile["outfile_prefix"] and len(Path(nome).parts) == 1 and not nomifile[
-        #                                                                               "outfile_prefix"] in barename:
-        #     nomefilequiz = nomifile["outfile_prefix"] + nomefilequiz
-        if nomifile["outfile_prefix"] and len(Path(nome).parts) == 1 and not nomifile[
-                                                                                      "outfile_prefix"] in barename:
-            nomefilequiz = nomifile["outfile_prefix"] + nomefilequiz
+    for nomefilequiz in da_concatenare:
+        print(f"\t{nomefilequiz}")
 
-        if len(Path(nome).parts) == 1:
-            input_path = nomifile["out_dir"]
+        # Apri il file originale in lettura e quello nuovo in scrittura
+        with open(nomefilequiz, "r", encoding="utf-8") as quiz:
+            righe = quiz.readlines()
 
-        nomefilequiz = os.path.join(input_path, nomefilequiz)
-        if not os.path.exists(nomefilequiz):
-            warning_message(f"Attenzione! Non esiste il file {nomefilequiz}; procedo con gli altri")
-        else:
-            print(f"\t{nomefilequiz}")
+        # Seleziona dalla terza riga (indice 2) fino alla penultima (indice -1 escluso)
+        contenuto_quiz = righe[2:-1]
 
-            # Apri il file originale in lettura e quello nuovo in scrittura
-            with open(nomefilequiz, "r", encoding="utf-8") as quiz:
-                righe = quiz.readlines()
-
-            # Seleziona dalla terza riga (indice 2) fino alla penultima (indice -1 escluso)
-            contenuto_quiz = righe[2:-1]
-
-            quiz_completo = quiz_completo + ["\n"] + contenuto_quiz
+        quiz_completo = quiz_completo + ["\n"] + contenuto_quiz
 
     quiz_completo = quiz_completo + shell_lines[-1:]
-    concat_file = os.path.join(nomifile["out_dir"], nomifile["concat_quiz"]+".xml")
+    concat_file = os.path.join(dir_da_concatenare, nomifile["concat_quiz"]+".xml")
     with open(concat_file, "w", encoding="utf-8") as file_quiz_completo:
         file_quiz_completo.writelines(quiz_completo)
 
@@ -103,14 +89,14 @@ def main():
             template_files[key] = os.path.join(cfg["templates"]["template_dir"],cfg["templates"][key]+".xml")
     nomifile.update(template_files)
 
-    if len(sys.argv) > 1 and parse_args()[0].concat:
-        warning_message("È stata richiesta la concatenazione di file\n")
-        if cfg["exec"] and not "ALL" in cfg["exec"]:
-            concatena(cfg,cfg["exec"], nomifile)
-        elif cfg["exec"] and "ALL" in cfg["exec"]:
-            concatena(cfg,cfg["database"], nomifile)
-        else:
-            error_message(f"Nel file di configurazione {file_config} non sono specificati file da concatenare")
+    if len(sys.argv) > 1 and not parse_args()[0].concat is None:
+        tbc_dir = parse_args()[0].concat
+        warning_message(f"È stata richiesta la concatenazione dei file nella cartella {tbc_dir}\n")
+        if not os.path.exists(tbc_dir):
+            error_message(f"Errore! Non esiste la cartella {tbc_dir}")
+        concatena(cfg, tbc_dir, nomifile)
+
+        error_message(f"Nel file di configurazione {file_config} non sono specificati file da concatenare")
 
     verify_template_existence(template_files)
 
@@ -146,7 +132,7 @@ def main():
     if all:
         if not input_directory:
             input_directory = nomifile["source_dir"]
-        daeseguire = forallfiles(input_directory,nomifile["concat_quiz"])
+        daeseguire = forallfiles(input_directory,nomifile["concat_quiz"],"json")
 
     for nome in daeseguire:
         print("nome:",nome)
