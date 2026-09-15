@@ -1,5 +1,5 @@
 #
-# Copyright 2026 Lavinia Egidi
+# Copyright 2026 Lavinia Egidi - UPO
 #
 # This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 #
@@ -128,7 +128,7 @@ def verifica(risp, istruzioni,lab):
         if sum_of_computed_choices != num_aff:
             error_message(f"le scelte in 'computed_choices' sono in totale {sum_of_computed_choices} ma il numero richiesto in 'number_of_statements è {num_aff}")
     # check that the cloze type is among those managed
-    if risp[lab["question_type"]] == "cloze" and not risp[lab["cloze_type"]] in istruzioni["cloze_types"]["one"]:
+    if risp[lab["question_type"]] == "cloze" and not risp[lab["cloze_type"]] in istruzioni["cloze_types"]["one_answer"]:
                 error_message('non so gestire il tipo_cloze specificato')
     # for dd questions check that for each possible answer it is specificed whether it must be infinite
     if risp[lab["question_type"]] == "dd":

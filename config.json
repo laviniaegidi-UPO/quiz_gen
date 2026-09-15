@@ -1,9 +1,5 @@
-{"README1": "exec: lista di nomi delle domande per creare tutti i quiz possibili per quel nome",
-  "README2":"il database serve solo se si vogliono creare le domande per tutti i file della lista",
-  "README3": "tutte le informazioni necessarie devono essere nei file json",
-  "README4":"leggere il README.txt per altre istruzioni",
-
-  "WARNING": "Do NOT change the labels in any of the following dictionaries",
+{
+  "WARNING": "Do NOT change the keys in any of the following dictionaries",
 
   "exec":[  "ALL"
   ],
@@ -27,7 +23,7 @@
     "concat_quiz": "000_tutti_i_quiz"
   },
 "WARNING1": "-------------------------------------------------------------------------------------",
-"WARNING2": "If you change the values in 'templates' you must change the corresponding file names accordingly. Do NOT change the labels",
+"WARNING2": "If you change the values in 'templates' you must change the corresponding file names accordingly. Do NOT change the keys",
   "templates": {
     "template_dir": "templates",
     "template_quiz": "shell",
@@ -38,7 +34,7 @@
     "template_cloze": "cloze"
   },
 "WARNING3": "-------------------------------------------------------------------------------------",
-"WARNING4": "If you modify the values in 'necessary_input_fields' and 'meaningful_options' you must correspondingly change the labels in all input file. Adding or deleting entries requires a change in the implementation. Do NOT change the labels",
+"WARNING4": "If you modify the values in 'necessary_input_fields' and 'meaningful_options' you must correspondingly change the keys in all input files. Adding or deleting entries requires a change in the implementation. Do NOT change the keys",
   "necessary_input_fields": {
   "all": {
     "category": "categoria",
@@ -83,11 +79,8 @@
   "all_orders": "permutazioni",
   "itemized":"elenco_puntato"
 }},
-  "cloze_types": {"one": ["MULTICHOICE_H","MULTICHOICE_V","MULTICHOICE_VS", "MULTICHOICE_HS", "SHORTANSWER"],"many":
- [ "these are not managed by the software","MULTIRESPONSE",
-  "MULTIRESPONSE_H",
-  "MULTIRESPONSE_S",
-  "MULTIRESPONSE_HS"]
+  "cloze_types": {"one_answer": ["MULTICHOICE_H","MULTICHOICE_V","MULTICHOICE_VS", "MULTICHOICE_HS", "SHORTANSWER"],"many_answers":
+ []
 }
 
 

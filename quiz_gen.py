@@ -1,5 +1,5 @@
 #
-# Copyright 2026 Lavinia Egidi
+# Copyright 2026 Lavinia Egidi - UPO
 #
 # This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 #
@@ -25,6 +25,7 @@ def parse_args():
     parser.add_argument("-i", "--input", help="file in input", type=str)
     parser.add_argument("-d", "--directory", help="elaborare tutti i file nella directory in input (se non viene specificata la directory, viene usata quella di default)",
                         type=str, nargs='?', const = '-')
+    parser.add_argument("-o", "--outdir", help="output directory", type=str)
     parser.add_argument("-c", "--concat", help="concatena i file specificati nella cartella specificata o nel file config", type=str)
     return parser.parse_args(), parser
 
@@ -74,6 +75,12 @@ def concatena(cfg,dir_da_concatenare,nomifile):
     sys.exit(0)
 
 def main():
+    print("\n")
+    print("***********************************************************")
+    print("*******                quiz_gen                  **********")
+    print("*******      generazione di quiz per Moodle      **********")
+    print("***********************************************************")
+    print("\n")
     file_config = FILE_CONFIG
     if not os.path.exists(file_config):
         error_message(f"Errore! Non esiste il file {file_config}")
@@ -111,8 +118,9 @@ def main():
     all = False
 
     if len(sys.argv) > 1:
-        print("Sono state specificate opzioni")
         args, parser = parse_args()
+        if not args.outdir is None:
+            nomifile["out_dir"] = args.outdir
         if not args.input is None:
             daeseguire = [args.input]
         elif not args.directory is None:
@@ -174,7 +182,7 @@ def main():
         template = shell.replace("__PHSINGOLEDOMANDE", questions).replace("__PHCATEGORY", risposte[lab["category"]])
 
         if not os.path.exists(nomifile["out_dir"]):
-            print(f"Creo la cartella {nomifile['out_dir']}")
+            print(f"Creata la cartella {nomifile['out_dir']}")
             os.makedirs(nomifile["out_dir"])
 
         nomefilequiz = os.path.join(nomifile["out_dir"],nomifile["outfile_prefix"] + barename + ".xml")
