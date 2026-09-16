@@ -19,8 +19,8 @@ FILE_CONFIG = "config.json"
 # defines inputs and options
 def parse_args():
     parser = argparse.ArgumentParser(
-        prog='genera_quiz',
-        description='genera quiz moodle in formato XML da file JSON in input')
+        prog='q_gen',
+        description='genera domande in formato Moodle XML da file JSON in input')
 
     parser.add_argument("-i", "--input", help="file in input", type=str)
     parser.add_argument("-d", "--directory", help="elaborare tutti i file nella directory in input (se non viene specificata la directory, viene usata quella di default)",
@@ -76,10 +76,10 @@ def concatena(cfg,dir_da_concatenare,nomifile):
 
 def main():
     print("\n")
-    print("***********************************************************")
-    print("*******                quiz_gen                  **********")
-    print("*******      generazione di quiz per Moodle      **********")
-    print("***********************************************************")
+    print("************************************************************")
+    print("*******                   q_gen                   **********")
+    print("*******     generazione di domande per Moodle     **********")
+    print("************************************************************")
     print("\n")
     file_config = FILE_CONFIG
     if not os.path.exists(file_config):
