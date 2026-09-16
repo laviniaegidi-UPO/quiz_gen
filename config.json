@@ -17,10 +17,10 @@
    ],
   "filenames": {
     "sourcefile_prefix": "",
-    "outfile_prefix": "quiz_",
+    "outfile_prefix": "raccolta_",
     "source_dir": "sorgenti",
-    "out_dir": "quiz",
-    "concat_quiz": "000_tutti_i_quiz"
+    "out_dir": "raccolte",
+    "collections_concat": "000_tutte"
   },
 "WARNING1": "-------------------------------------------------------------------------------------",
 "WARNING2": "If you change the values in 'templates' you must change the corresponding file names accordingly. Do NOT change the keys",

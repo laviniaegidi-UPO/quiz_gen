@@ -43,7 +43,7 @@ def verify_template_existence(names):
 
 def concatena(cfg,dir_da_concatenare,nomifile):
 
-    da_concatenare = forallfiles(dir_da_concatenare, nomifile["concat_quiz"], "xml")
+    da_concatenare = forallfiles(dir_da_concatenare, nomifile["collections_concat"], "xml")
     if len(da_concatenare) == 0:
         error_message(f"Nella cartella {dir_da_concatenare} non ci sono quiz")
 
@@ -67,7 +67,7 @@ def concatena(cfg,dir_da_concatenare,nomifile):
         quiz_completo = quiz_completo + ["\n"] + contenuto_quiz
 
     quiz_completo = quiz_completo + shell_lines[-1:]
-    concat_file = os.path.join(dir_da_concatenare, nomifile["concat_quiz"]+".xml")
+    concat_file = os.path.join(dir_da_concatenare, nomifile["collections_concat"]+".xml")
     with open(concat_file, "w", encoding="utf-8") as file_quiz_completo:
         file_quiz_completo.writelines(quiz_completo)
 
@@ -140,7 +140,7 @@ def main():
     if all:
         if not input_directory:
             input_directory = nomifile["source_dir"]
-        daeseguire = forallfiles(input_directory,nomifile["concat_quiz"],"json")
+        daeseguire = forallfiles(input_directory,nomifile["collections_concat"],"json")
 
     for nome in daeseguire:
         print("nome:",nome)
