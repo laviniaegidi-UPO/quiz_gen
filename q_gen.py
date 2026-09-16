@@ -76,10 +76,10 @@ def concatena(cfg,dir_da_concatenare,nomifile):
 
 def main():
     print("\n")
-    print("***********************************************************")
-    print("*******                quiz_gen                  **********")
-    print("*******      generazione di quiz per Moodle      **********")
-    print("***********************************************************")
+    print("************************************************************")
+    print("*******                   q_gen                   **********")
+    print("*******     generazione di domande per Moodle     **********")
+    print("************************************************************")
     print("\n")
     file_config = FILE_CONFIG
     if not os.path.exists(file_config):
